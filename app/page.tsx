@@ -26,6 +26,8 @@ const CooccurrenceGraph = dynamic(() => import('@/components/charts/Cooccurrence
 import FilterPanel from '@/components/filters/FilterPanel';
 import PaperTable from '@/components/PaperTable';
 import InsightsPanel from '@/components/InsightsPanel';
+import TagAnalysisPanel from '@/components/TagAnalysisPanel';
+import TrendPredictionPanel from '@/components/TrendPredictionPanel';
 import { ThemeToggle } from '@/components/ThemeToggle';
 
 function DashboardContent() {
@@ -333,6 +335,19 @@ function DashboardContent() {
           papers={papers}
           loading={loading}
           onTagClick={handleTagClick}
+        />
+
+        {/* Row 5: Tag Deep Analysis (only shown when tags are selected) */}
+        <TagAnalysisPanel
+          papers={papers}
+          selectedTags={filters.tags}
+          loading={loading}
+        />
+
+        {/* Row 6: Trend Prediction */}
+        <TrendPredictionPanel
+          papers={papers}
+          loading={loading}
         />
       </main>
 
