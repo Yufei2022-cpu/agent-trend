@@ -17,6 +17,15 @@ const OUTPUT_PATH = path.join(__dirname, '..', 'data', 'papers.json');
 
 const POLITE_EMAIL = 'agenttrend@example.com';
 
+// Search Depth & Limits
+const FETCH_CONFIG = {
+    PAGES_2025: 25,           // Pages to fetch for 2025 queries
+    PAGES_HISTORICAL: 25,     // Pages per year for historical queries
+    RESULTS_PER_PAGE: 200,    // Results per API call (max 200)
+    START_YEAR: 2022,        // Starting year for historical search
+    END_YEAR: 2026,          // Ending year for historical search
+};
+
 // Search queries - broad coverage across all tag categories
 const QUERIES = [
     'autonomous AI agent large language model',
@@ -143,9 +152,63 @@ function autoMethods(title, abstract) {
 
 // ---- OpenAlex specific ----
 
+// Venue normalization patterns (regex for safety with short acronyms)
+const VENUE_REGEX = [
+    { regex: /\bneurips\b/i, val: 'NeurIPS' },
+    { regex: /\bnips\b/i, val: 'NeurIPS' },
+    { regex: /neural information processing systems/i, val: 'NeurIPS' },
+    { regex: /\biclr\b/i, val: 'ICLR' },
+    { regex: /international conference on learning representations/i, val: 'ICLR' },
+    { regex: /\bicml\b/i, val: 'ICML' },
+    { regex: /international conference on machine learning/i, val: 'ICML' },
+    { regex: /\bcvpr\b/i, val: 'CVPR' },
+    { regex: /computer vision and pattern recognition/i, val: 'CVPR' },
+    { regex: /\biccv\b/i, val: 'ICCV' },
+    { regex: /international conference on computer vision/i, val: 'ICCV' },
+    { regex: /\beccv\b/i, val: 'ECCV' },
+    { regex: /european conference on computer vision/i, val: 'ECCV' },
+    { regex: /\bacl\b/i, val: 'ACL' },
+    { regex: /association for computational linguistics/i, val: 'ACL' },
+    { regex: /\bemnlp\b/i, val: 'EMNLP' },
+    { regex: /empirical methods in natural language processing/i, val: 'EMNLP' },
+    { regex: /\bnaacl\b/i, val: 'NAACL' },
+    { regex: /\baaai\b/i, val: 'AAAI' },
+    { regex: /association for the advancement of artificial intelligence/i, val: 'AAAI' },
+    { regex: /\bijcai\b/i, val: 'IJCAI' },
+    { regex: /international joint conference on artificial intelligence/i, val: 'IJCAI' },
+    { regex: /\bkdd\b/i, val: 'KDD' },
+    { regex: /knowledge discovery and data mining/i, val: 'KDD' },
+    { regex: /\bsigir\b/i, val: 'SIGIR' },
+    { regex: /\bwww\b/i, val: 'WWW' },
+    { regex: /the web conference/i, val: 'WWW' },
+    { regex: /\bchi\b/i, val: 'CHI' },
+    { regex: /\bnature\b/i, val: 'Nature' },
+    { regex: /\bscience\b/i, val: 'Science' },
+    { regex: /arxiv/i, val: 'arXiv' },
+];
+
+// Strict whitelist of top venues
+const ALLOWED_VENUES = new Set([
+    'NeurIPS', 'ICLR', 'ICML', 'CVPR', 'ICCV', 'ECCV', 'ACL', 'EMNLP', 'NAACL',
+    'AAAI', 'IJCAI', 'KDD', 'SIGIR', 'WWW', 'CHI', 'Nature', 'Science'
+]);
+
+function canonicalizeVenue(rawVenue) {
+    if (!rawVenue) return 'arXiv';
+
+    // Check regex patterns
+    for (const { regex, val } of VENUE_REGEX) {
+        if (regex.test(rawVenue)) return val;
+    }
+
+    // Return original if no match (will be filtered out later if not in allowed list)
+    return rawVenue;
+}
+
 function openAlexToVenue(source) {
     if (!source) return 'arXiv';
-    return source.display_name || 'arXiv';
+    const raw = source.display_name || 'arXiv';
+    return canonicalizeVenue(raw);
 }
 
 function extractUrl(work) {
@@ -155,8 +218,8 @@ function extractUrl(work) {
 }
 
 function transformOpenAlexPaper(work, index) {
+    // ... transformation logic remains the same ...
     const title = work.title || 'Untitled';
-
     let abstract = '';
     if (work.abstract_inverted_index) {
         const words = [];
@@ -167,19 +230,16 @@ function transformOpenAlexPaper(work, index) {
         }
         abstract = words.filter(Boolean).join(' ').slice(0, 500);
     }
-
     const year = work.publication_year || 2023;
     const month = work.publication_date
         ? parseInt(work.publication_date.split('-')[1], 10) || 1
         : Math.floor(Math.random() * 12) + 1;
-
     const venue = openAlexToVenue(work.primary_location?.source);
     const citations = work.cited_by_count || 0;
     const authors = (work.authorships || [])
         .map((a) => a.author?.display_name)
         .filter(Boolean)
         .slice(0, 5);
-
     const url = extractUrl(work);
     const tags = autoTag(title, abstract);
     const methods = autoMethods(title, abstract);
@@ -191,26 +251,46 @@ function transformOpenAlexPaper(work, index) {
     };
 }
 
-async function fetchOpenAlex(query, page = 1, perPage = 25, { fromDate = '2020-01-01', toDate = '2026-12-31', sort = 'cited_by_count:desc' } = {}) {
+// ... fetchOpenAlex remains the same ...
+async function fetchOpenAlex(query, page = 1, perPage = FETCH_CONFIG.RESULTS_PER_PAGE, { fromDate = '2020-01-01', toDate = '2026-12-31', sort = 'cited_by_count:desc' } = {}) {
     const url = `https://api.openalex.org/works?search=${encodeURIComponent(query)}&filter=from_publication_date:${fromDate},to_publication_date:${toDate},type:article&per_page=${perPage}&page=${page}&sort=${sort}&mailto=${POLITE_EMAIL}`;
 
     console.log(`  📡 "${query}" (p${page}, ${sort.split(':')[0]}, ${fromDate.slice(0, 4)}-${toDate.slice(0, 4)})`);
 
-    try {
-        const res = await fetch(url);
-        if (!res.ok) {
-            console.error(`  ❌ HTTP ${res.status}: ${res.statusText}`);
+    const MAX_RETRIES = 5;
+    for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+        try {
+            const res = await fetch(url);
+
+            if (res.status === 429) {
+                const waitTime = attempt * 2000 + Math.random() * 1000;
+                console.warn(`  ⚠️ Rate limited (429). Retrying in ${Math.round(waitTime / 1000)}s... (Attempt ${attempt}/${MAX_RETRIES})`);
+                await sleep(waitTime);
+                continue;
+            }
+
+            if (!res.ok) {
+                console.error(`  ❌ HTTP ${res.status}: ${res.statusText}`);
+                return [];
+            }
+
+            const data = await res.json();
+            return data.results || [];
+        } catch (err) {
+            console.error(`  ❌ Error: ${err.message}`);
+            // Network error, maybe retry?
+            if (attempt < MAX_RETRIES) {
+                await sleep(1000);
+                continue;
+            }
             return [];
         }
-        const data = await res.json();
-        return data.results || [];
-    } catch (err) {
-        console.error(`  ❌ Error: ${err.message}`);
-        return [];
     }
+    console.error(`  ❌ Failed after ${MAX_RETRIES} attempts.`);
+    return [];
 }
 
-// Helper: collect into a bucket, deduplicating
+// Helper: collect into a bucket, deduplicating AND FILTERING VENUES
 function collectWorks(works, seenTitles, bucket) {
     let added = 0;
     for (const work of works) {
@@ -218,6 +298,11 @@ function collectWorks(works, seenTitles, bucket) {
         const titleLower = work.title.toLowerCase();
         if (seenTitles.has(titleLower)) continue;
         if (!work.publication_year || work.publication_year < 2020) continue;
+
+        // Strict Venue Filter
+        const venue = openAlexToVenue(work.primary_location?.source);
+        if (!ALLOWED_VENUES.has(venue)) continue;
+
         seenTitles.add(titleLower);
         bucket.push(work);
         added++;
@@ -228,7 +313,8 @@ function collectWorks(works, seenTitles, bucket) {
 // ---- Main ----
 
 async function main() {
-    console.log('🚀 Fetching real AI Agent papers from OpenAlex...\n');
+    console.log('🚀 Fetching real AI Agent papers from OpenAlex (TOP VENUES ONLY)...\n');
+    console.log(`  Target Venues: ${[...ALLOWED_VENUES].join(', ')}\n`);
 
     const seenTitles = new Set();
 
@@ -239,48 +325,53 @@ async function main() {
     const papers2025 = [];
 
     for (const query of QUERIES_2025) {
-        for (let page = 1; page <= 2; page++) {
-            const works = await fetchOpenAlex(query, page, 25, {
+        // Use configuration for search depth
+        for (let page = 1; page <= FETCH_CONFIG.PAGES_2025; page++) {
+            const works = await fetchOpenAlex(query, page, FETCH_CONFIG.RESULTS_PER_PAGE, {
                 fromDate: '2025-01-01',
                 toDate: '2026-02-14',
                 sort: 'publication_date:desc',
             });
-            collectWorks(works, seenTitles, papers2025);
+            const count = collectWorks(works, seenTitles, papers2025);
             await sleep(200);
         }
     }
 
     // Supplement with general queries filtered to 2025
     for (const query of QUERIES) {
-        const works = await fetchOpenAlex(query, 1, 25, {
-            fromDate: '2025-01-01',
-            toDate: '2026-02-14',
-            sort: 'cited_by_count:desc',
-        });
-        collectWorks(works, seenTitles, papers2025);
-        await sleep(200);
+        for (let page = 1; page <= Math.ceil(FETCH_CONFIG.PAGES_2025 / 2); page++) {
+            const works = await fetchOpenAlex(query, page, FETCH_CONFIG.RESULTS_PER_PAGE, {
+                fromDate: '2025-01-01',
+                toDate: '2026-02-14',
+                sort: 'cited_by_count:desc',
+            });
+            collectWorks(works, seenTitles, papers2025);
+            await sleep(200);
+        }
     }
 
     console.log(`\n📊 Phase 1 done: ${papers2025.length} papers from 2025+\n`);
 
     // ============================================================
-    // Phase 2: Historical papers per year (2020-2024), by citations
+    // Phase 2: Historical papers per year (START_YEAR-END_YEAR)
     // ============================================================
-    console.log('━━━ Phase 2: Historical papers (2020-2024, by citations) ━━━\n');
+    console.log(`━━━ Phase 2: Historical papers (${FETCH_CONFIG.START_YEAR}-${FETCH_CONFIG.END_YEAR}, by citations) ━━━\n`);
     const papersHistorical = [];
 
-    // Fetch each year separately to guarantee year coverage
-    for (let year = 2020; year <= 2024; year++) {
+    // Fetch each year separately
+    for (let year = FETCH_CONFIG.START_YEAR; year <= FETCH_CONFIG.END_YEAR; year++) {
         const fromDate = `${year}-01-01`;
         const toDate = `${year}-12-31`;
 
-        for (const query of QUERIES.slice(0, 8)) { // Use top 8 queries per year
-            const works = await fetchOpenAlex(query, 1, 25, {
-                fromDate, toDate,
-                sort: 'cited_by_count:desc',
-            });
-            collectWorks(works, seenTitles, papersHistorical);
-            await sleep(200);
+        for (const query of QUERIES.slice(0, 10)) {
+            for (let page = 1; page <= FETCH_CONFIG.PAGES_HISTORICAL; page++) {
+                const works = await fetchOpenAlex(query, page, FETCH_CONFIG.RESULTS_PER_PAGE, {
+                    fromDate, toDate,
+                    sort: 'cited_by_count:desc',
+                });
+                collectWorks(works, seenTitles, papersHistorical);
+                await sleep(200);
+            }
         }
     }
 

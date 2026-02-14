@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
+import { searchPapers, initializeSearchIndex, getSearchStatus } from '@/lib/search';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Suspense } from 'react';
 import dynamic from 'next/dynamic';
@@ -28,6 +29,7 @@ import PaperTable from '@/components/PaperTable';
 import InsightsPanel from '@/components/InsightsPanel';
 import TagAnalysisPanel from '@/components/TagAnalysisPanel';
 import TrendPredictionPanel from '@/components/TrendPredictionPanel';
+import ResearchAdvisorPanel from '@/components/ResearchAdvisorPanel';
 import { ThemeToggle } from '@/components/ThemeToggle';
 
 function DashboardContent() {
@@ -53,6 +55,7 @@ function DashboardContent() {
   const [cooccNodes, setCooccNodes] = useState<CooccurrenceNode[]>([]);
   const [cooccLinks, setCooccLinks] = useState<CooccurrenceLink[]>([]);
   const [papers, setPapers] = useState<Paper[]>([]);
+  const [allPapers, setAllPapers] = useState<Paper[]>([]);
   const [insights, setInsights] = useState<Insight[]>([]);
   const [availableTags, setAvailableTags] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
@@ -120,7 +123,9 @@ function DashboardContent() {
       const insightsRes = await fetch('/api/search');
       if (insightsRes.ok) {
         const allData = await insightsRes.json();
-        generateClientInsights(allData.papers || []);
+        const allPapersList = allData.papers || [];
+        setAllPapers(allPapersList);
+        generateClientInsights(allPapersList);
       }
     } catch (err) {
       setError(err instanceof Error ? err.message : 'An error occurred');
@@ -344,7 +349,15 @@ function DashboardContent() {
           loading={loading}
         />
 
-        {/* Row 6: Trend Prediction */}
+        {/* Row 6: Research Advisor (only shown when tags are selected) */}
+        <ResearchAdvisorPanel
+          papers={papers}
+          allPapers={allPapers}
+          selectedTags={filters.tags}
+          loading={loading}
+        />
+
+        {/* Row 7: Trend Prediction */}
         <TrendPredictionPanel
           papers={papers}
           loading={loading}

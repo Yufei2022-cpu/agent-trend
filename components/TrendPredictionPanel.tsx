@@ -22,15 +22,14 @@ interface PredictionItem {
 
 // List of top-tier venues for AI research
 const TOP_VENUES = new Set([
-    'arXiv', 'NeurIPS', 'ICML', 'ICLR', 'ACL', 'EMNLP', 'NAACL',
+    'NeurIPS', 'ICML', 'ICLR', 'ACL', 'EMNLP', 'NAACL',
     'AAAI', 'IJCAI', 'CVPR', 'ICCV', 'ECCV', 'KDD', 'WWW',
-    'Nature', 'Science', 'Nature Machine Intelligence',
-    'IEEE Transactions on Pattern Analysis and Machine Intelligence',
-    'Artificial Intelligence', 'Journal of Machine Learning Research',
     'SIGIR', 'CIKM', 'WSDM', 'CHI', 'UIST',
+    'Nature', 'Science', 'IEEE', 'ACM', // Catch-all for major journals/transactions
 ]);
 
-function isTopVenue(venue: string): boolean {
+function isTopVenue(venue: string | undefined | null): boolean {
+    if (!venue) return false;
     const v = venue.toLowerCase();
     for (const tv of TOP_VENUES) {
         if (v.includes(tv.toLowerCase())) return true;
@@ -216,8 +215,8 @@ export default function TrendPredictionPanel({ papers, loading }: TrendPredictio
                         <div
                             key={pred.direction}
                             className={`relative rounded-xl p-4 border transition-all hover:shadow-lg ${isTop3
-                                    ? 'bg-gradient-to-br from-indigo-50/80 to-purple-50/50 dark:from-indigo-900/20 dark:to-purple-900/10 border-indigo-200 dark:border-indigo-800/50'
-                                    : 'bg-slate-50 dark:bg-slate-800/30 border-slate-200 dark:border-slate-700/50'
+                                ? 'bg-gradient-to-br from-indigo-50/80 to-purple-50/50 dark:from-indigo-900/20 dark:to-purple-900/10 border-indigo-200 dark:border-indigo-800/50'
+                                : 'bg-slate-50 dark:bg-slate-800/30 border-slate-200 dark:border-slate-700/50'
                                 }`}
                         >
                             {/* Rank badge */}
@@ -247,8 +246,8 @@ export default function TrendPredictionPanel({ papers, loading }: TrendPredictio
                                 <div className="h-2 rounded-full bg-slate-200 dark:bg-slate-700 overflow-hidden">
                                     <div
                                         className={`h-full rounded-full transition-all duration-700 ${isTop3
-                                                ? 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'
-                                                : 'bg-gradient-to-r from-slate-400 to-slate-500 dark:from-slate-500 dark:to-slate-400'
+                                            ? 'bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'
+                                            : 'bg-gradient-to-r from-slate-400 to-slate-500 dark:from-slate-500 dark:to-slate-400'
                                             }`}
                                         style={{ width: `${barWidth}%` }}
                                     />
