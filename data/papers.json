@@ -1,0 +1,3642 @@
+[
+  {
+    "id": "r006",
+    "title": "Digital Twin: Values, Challenges and Enablers From a Modeling Perspective",
+    "authors": [
+      "Adil Rasheed",
+      "Omer San",
+      "Trond Kvamsdal"
+    ],
+    "year": 2020,
+    "month": 1,
+    "venue": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2020.2970143",
+    "abstract": "Digital twin can be defined as a virtual representation of a physical asset enabled through data and simulators for real-time prediction, optimization, monitoring, controlling, and improved decision making. Recent advances in computational pipelines, multiphysics solvers, artificial intelligence, big data cybernetics, data processing and management tools bring the promise of digital twins and their impact on society closer to reality. Digital twinning is now an important and emerging trend in ma",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 1546
+  },
+  {
+    "id": "r008",
+    "title": "An Overview on Edge Computing Research",
+    "authors": [
+      "Keyan Cao",
+      "Yefan Liu",
+      "Gongjie Meng",
+      "Qimeng Sun"
+    ],
+    "year": 2020,
+    "month": 1,
+    "venue": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2020.2991734",
+    "abstract": "With the rapid development of the Internet of Everything (IoE), the number of smart devices connected to the Internet is increasing, resulting in large-scale data, which has caused problems such as bandwidth load, slow response speed, poor security, and poor privacy in traditional cloud computing models. Traditional cloud computing is no longer sufficient to support the diverse needs of today's intelligent society for data processing, so edge computing technologies have emerged. It is a new comp",
+    "tags": [
+      "RL"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 1119
+  },
+  {
+    "id": "r030",
+    "title": "Artificial Intelligence and Machine Learning Applications in Smart Production: Progress, Trends, and Directions",
+    "authors": [
+      "Raffaele Cioffi",
+      "Marta Travaglioni",
+      "Giuseppina Piscitelli",
+      "Antonella Petrillo",
+      "Fabio De Felice"
+    ],
+    "year": 2020,
+    "month": 1,
+    "venue": "Sustainability",
+    "url": "https://doi.org/10.3390/su12020492",
+    "abstract": "Adaptation and innovation are extremely important to the manufacturing industry. This development should lead to sustainable manufacturing using new technologies. To promote sustainability, smart production requires global perspectives of smart production application technology. In this regard, thanks to intensive research efforts in the field of artificial intelligence (AI), a number of AI-based techniques, such as machine learning, have already been established in the industry to achieve susta",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 652
+  },
+  {
+    "id": "r036",
+    "title": "Industrial Artificial Intelligence in Industry 4.0 - Systematic Review, Challenges and Outlook",
+    "authors": [
+      "Ricardo Silva Peres",
+      "Xiaodong Jia",
+      "Jay Lee",
+      "Keyi Sun",
+      "Armando Walter Colombo"
+    ],
+    "year": 2020,
+    "month": 1,
+    "venue": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2020.3042874",
+    "abstract": "The advent of the Industry 4.0 initiative has made it so that manufacturing environments are becoming more and more dynamic, connected but also inherently more complex, with additional inter-dependencies, uncertainties and large volumes of data being generated. Recent advances in Industrial Artificial Intelligence have showcased the potential of this technology to assist manufacturers in tackling the challenges associated with this digital transformation of Cyber-Physical Systems, through its da",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 601
+  },
+  {
+    "id": "r070",
+    "title": "<b>GDINA</b>: An <i>R</i> Package for Cognitive Diagnosis Modeling",
+    "authors": [
+      "Wenchao Ma",
+      "Jimmy de la Torre"
+    ],
+    "year": 2020,
+    "month": 1,
+    "venue": "Journal of Statistical Software",
+    "url": "https://doi.org/10.18637/jss.v093.i14",
+    "abstract": "Cognitive diagnosis models (CDMs) have attracted increasing attention in educational measurement because of their potential to provide diagnostic feedback about students' strengths and weaknesses. This article introduces the feature-rich R package GDINA for conducting a variety of CDM analyses. Built upon a general model framework, a number of CDMs can be calibrated using the GDINA package. Functions are also available for evaluating model-data fit, detecting differential item functioning, valid",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 113
+  },
+  {
+    "id": "r115",
+    "title": "Survey on Scenario-Based Safety Assessment of Automated Vehicles",
+    "authors": [
+      "Stefan Riedmaier",
+      "Thomas Ponn",
+      "Dieter Ludwig",
+      "Bernhard Schick",
+      "Frank Diermeyer"
+    ],
+    "year": 2020,
+    "month": 1,
+    "venue": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2020.2993730",
+    "abstract": "When will automated vehicles come onto the market? This question has puzzled the automotive industry and society for years. The technology and its implementation have made rapid progress over the last decade, but the challenge of how to prove the safety of these systems has not yet been solved. Since a market launch without proof of safety would neither be accepted by society nor by legislators, much time and many resources have been invested into safety assessment in recent years in order to de",
+    "tags": [
+      "evaluation",
+      "safety"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 428
+  },
+  {
+    "id": "r117",
+    "title": "Crop Yield Prediction Using Deep Reinforcement Learning Model for Sustainable Agrarian Applications",
+    "authors": [
+      "Dhivya Elavarasan",
+      "P. M. Durai Raj Vincent"
+    ],
+    "year": 2020,
+    "month": 1,
+    "venue": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2020.2992480",
+    "abstract": "Predicting crop yield based on the environmental, soil, water and crop parameters has been a potential research topic. Deep-learning-based models are broadly used to extract significant crop features for prediction. Though these methods could resolve the yield prediction problem there exist the following inadequacies: Unable to create a direct non-linear or linear mapping between the raw data and crop yield values; and the performance of those models highly relies on the quality of the extracted",
+    "tags": [
+      "RL"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 397
+  },
+  {
+    "id": "r120",
+    "title": "Deep Learning for Change Detection in Remote Sensing Images: Comprehensive Review and Meta-Analysis",
+    "authors": [
+      "Lazhar Khelifi",
+      "Max Mignotte"
+    ],
+    "year": 2020,
+    "month": 1,
+    "venue": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2020.3008036",
+    "abstract": "Deep learning (DL) algorithms are considered as a methodology of choice for remote-sensing image analysis over the past few years. Due to its effective applications, deep learning has also been introduced for automatic change detection and achieved great success. The present study attempts to provide a comprehensive review and a meta-analysis of the recent progress in this subfield. Specifically, we first introduce the fundamentals of deep learning methods which are frequently adopted for change",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 384
+  },
+  {
+    "id": "r122",
+    "title": "Artificial Intelligence (AI) and Big Data for Coronavirus (COVID-19) Pandemic: A Survey on the State-of-the-Arts",
+    "authors": [
+      "Quoc‐Viet Pham",
+      "Dinh C. Nguyen",
+      "Thien Huynh‐The",
+      "Won‐Joo Hwang",
+      "Pubudu N. Pathirana"
+    ],
+    "year": 2020,
+    "month": 1,
+    "venue": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2020.3009328",
+    "abstract": "The very first infected novel coronavirus case (COVID-19) was found in Hubei, China in Dec. 2019. The COVID-19 pandemic has spread over 214 countries and areas in the world, and has significantly affected every aspect of our daily lives. At the time of writing this article, the numbers of infected cases and deaths still increase significantly and have no sign of a well-controlled situation, e.g., as of 13 July 2020, from a total number of around 13.1 million positive cases, 571,527 deaths were r",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 374
+  },
+  {
+    "id": "r185",
+    "title": "AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts",
+    "authors": [
+      "Taylor Shin",
+      "Yasaman Razeghi",
+      "Robert L. Logan",
+      "Eric Wallace",
+      "Sameer Singh"
+    ],
+    "year": 2020,
+    "month": 1,
+    "venue": "arXiv",
+    "url": "https://doi.org/10.18653/v1/2020.emnlp-main.346",
+    "abstract": "The remarkable success of pretrained language models has motivated the study of what kinds of knowledge these models learn during pretraining. Reformulating tasks as fill-in-the-blanks problems (e.g., cloze tests) is a natural approach for gauging such knowledge, however, its usage is limited by the manual effort and guesswork required to write suitable prompts. To address this, we develop AutoPrompt, an automated method to create prompts for a diverse set of tasks, based on a gradient-guided se",
+    "tags": [
+      "RAG"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 1101
+  },
+  {
+    "id": "r189",
+    "title": "Remote Sensing Image Scene Classification Meets Deep Learning: Challenges, Methods, Benchmarks, and Opportunities",
+    "authors": [
+      "Gong Cheng",
+      "Xingxing Xie",
+      "Junwei Han",
+      "Lei Guo",
+      "Gui-Song Xia"
+    ],
+    "year": 2020,
+    "month": 1,
+    "venue": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+    "url": "https://doi.org/10.1109/jstars.2020.3005403",
+    "abstract": "Remote sensing image scene classification, which aims at labeling remote\\nsensing images with a set of semantic categories based on their contents, has\\nbroad applications in a range of fields. Propelled by the powerful feature\\nlearning capabilities of deep neural networks, remote sensing image scene\\nclassification driven by deep learning has drawn remarkable attention and\\nachieved significant breakthroughs. However, to the best of our knowledge, a\\ncomprehensive review of recent achievements",
+    "tags": [
+      "evaluation",
+      "RL"
+    ],
+    "methods": [
+      "benchmark"
+    ],
+    "datasets": [],
+    "citations": 906
+  },
+  {
+    "id": "r191",
+    "title": "A Survey on the Internet of Things (IoT) Forensics: Challenges, Approaches, and Open Issues",
+    "authors": [
+      "Maria Stoyanova",
+      "Yannis Nikoloudakis",
+      "Spyros Panagiotakis",
+      "Evangelos Pallis",
+      "Evangelos Markakis"
+    ],
+    "year": 2020,
+    "month": 1,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "url": "https://doi.org/10.1109/comst.2019.2962586",
+    "abstract": "&lt;p&gt;Today is the era of the Internet of Things (IoT). The recent advances in hardware and information technology have accelerated the deployment of billions of interconnected, smart and adaptive devices in critical infrastructures like health, transportation, environmental control, and home automation. Transferring data over a network without requiring any kind of human-to-computer or human-to-human interaction, brings reliability and convenience to consumers, but also opens a new world of ",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 802
+  },
+  {
+    "id": "r192",
+    "title": "Deep Learning Algorithms for Bearing Fault Diagnostics—A Comprehensive Review",
+    "authors": [
+      "Shen Zhang",
+      "Shibo Zhang",
+      "Bingnan Wang",
+      "T.G. Habetler"
+    ],
+    "year": 2020,
+    "month": 1,
+    "venue": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2020.2972859",
+    "abstract": "In this survey paper, we systematically summarize existing literature on\\nbearing fault diagnostics with machine learning (ML) and data mining\\ntechniques. While conventional ML methods, including artificial neural network\\n(ANN), principal component analysis (PCA), support vector machines (SVM), etc.,\\nhave been successfully applied to the detection and categorization of bearing\\nfaults for decades, recent developments in deep learning (DL) algorithms in the\\nlast five years have sparked renewe",
+    "tags": [
+      "RL"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 779
+  },
+  {
+    "id": "r193",
+    "title": "Contrastive Representation Learning: A Framework and Review",
+    "authors": [
+      "Phuc H. Le-Khac",
+      "Graham Healy",
+      "Alan F. Smeaton"
+    ],
+    "year": 2020,
+    "month": 1,
+    "venue": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2020.3031549",
+    "abstract": "Contrastive Learning has recently received interest due to its success in self-supervised representation learning in the computer vision domain. However, the origins of Contrastive Learning date as far back as the 1990s and its development has spanned across many fields and domains including Metric Learning and natural language processing. In this paper we provide a comprehensive literature review and we propose a general Contrastive Representation Learning framework that simplifies and unifies ",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 770
+  },
+  {
+    "id": "r046",
+    "title": "Deep learning enabled inverse design in nanophotonics",
+    "authors": [
+      "Sunae So",
+      "Trevon Badloe",
+      "Jaebum Noh",
+      "Jorge Bravo‐Abad",
+      "Junsuk Rho"
+    ],
+    "year": 2020,
+    "month": 2,
+    "venue": "Nanophotonics",
+    "url": "https://doi.org/10.1515/nanoph-2019-0474",
+    "abstract": "Abstract Deep learning has become the dominant approach in artificial intelligence to solve complex data-driven problems. Originally applied almost exclusively in computer-science areas such as image analysis and nature language processing, deep learning has rapidly entered a wide variety of scientific fields including physics, chemistry and material science. Very recently, deep neural networks have been introduced in the field of nanophotonics as a powerful way of obtaining the nonlinear mappin",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 508
+  },
+  {
+    "id": "r011",
+    "title": "Towards a semantic Construction Digital Twin: Directions for future research",
+    "authors": [
+      "Calin Boje",
+      "Annie Guerriero",
+      "S Kubicki",
+      "Yacine Rezgui"
+    ],
+    "year": 2020,
+    "month": 3,
+    "venue": "Automation in Construction",
+    "url": "https://doi.org/10.1016/j.autcon.2020.103179",
+    "abstract": "As the Architecture, Engineering and Construction sector is embracing the digital age, the processes involved in the design, construction and operation of built assets are more and more influenced by technologies dealing with value-added monitoring of data from sensor networks, management of this data in secure and resilient storage systems underpinned by semantic models, as well as the simulation and optimisation of engineering systems. Aside from enhancing the efficiency of the value chain, su",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 1064
+  },
+  {
+    "id": "r101",
+    "title": "Designing conceptual articles: four approaches",
+    "authors": [
+      "Elina Jaakkola"
+    ],
+    "year": 2020,
+    "month": 3,
+    "venue": "AMS Review",
+    "url": "https://doi.org/10.1007/s13162-020-00161-0",
+    "abstract": "Abstract As a powerful means of theory building, conceptual articles are increasingly called for in marketing academia. However, researchers struggle to design and write non-empirical articles because of the lack of commonly accepted templates to guide their development. The aim of this paper is to highlight methodological considerations for conceptual papers: it is argued that such papers must be grounded in a clear research design, and that the choice of theories and their role in the analysis",
+    "tags": [
+      "reasoning"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 1329
+  },
+  {
+    "id": "r049",
+    "title": "Re-examining Whether, Why, and How Human-AI Interaction Is Uniquely Difficult to Design",
+    "authors": [
+      "Qian Yang",
+      "Aaron Steinfeld",
+      "Carolyn Penstein Rosé",
+      "John Zimmerman"
+    ],
+    "year": 2020,
+    "month": 4,
+    "venue": "arXiv",
+    "url": "https://doi.org/10.1145/3313831.3376301",
+    "abstract": "Artificial Intelligence (AI) plays an increasingly important role in improving HCI and user experience. Yet many challenges persist in designing and innovating valuable human-AI interactions. For example, AI systems can make unpredictable errors, and these errors damage UX and even lead to undesired societal impact. However, HCI routinely grapples with complex technologies and mitigates their unintended consequences. What makes AI different? What makes human-AI interaction appear particularly di",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 498
+  },
+  {
+    "id": "r034",
+    "title": "AI in Medical Imaging Informatics: Current Challenges and Future Directions",
+    "authors": [
+      "Andreas S. Panayides",
+      "Amir A. Amini",
+      "Nenad Filipović",
+      "Ashish Sharma",
+      "Sotirios A. Tsaftaris"
+    ],
+    "year": 2020,
+    "month": 5,
+    "venue": "IEEE Journal of Biomedical and Health Informatics",
+    "url": "https://doi.org/10.1109/jbhi.2020.2991043",
+    "abstract": "This paper reviews state-of-the-art research solutions across the spectrum of medical imaging informatics, discusses clinical translation, and provides future directions for advancing clinical practice. More specifically, it summarizes advances in medical imaging acquisition technologies for different modalities, highlighting the necessity for efficient medical data management strategies in the context of AI in big healthcare data analytics. It then provides a synopsis of contemporary and emergi",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 609
+  },
+  {
+    "id": "r038",
+    "title": "Value-Oriented and Ethical Technology Engineering in Industry 5.0: A Human-Centric Perspective for the Design of the Factory of the Future",
+    "authors": [
+      "Francesco Longo",
+      "Antonio Padovano",
+      "Steven Umbrello"
+    ],
+    "year": 2020,
+    "month": 6,
+    "venue": "Applied Sciences",
+    "url": "https://doi.org/10.3390/app10124182",
+    "abstract": "Although manufacturing companies are currently situated at a transition point in what has been called Industry 4.0, a new revolutionary wave—Industry 5.0—is emerging as an ‘Age of Augmentation’ when the human and machine reconcile and work in perfect symbiosis with one another. Recent years have indeed assisted in drawing attention to the human-centric design of Cyber-Physical Production Systems (CPPS) and to the genesis of the ‘Operator 4.0’, two novel concepts that raise significant ethical qu",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 582
+  },
+  {
+    "id": "r047",
+    "title": "In AI We Trust: Ethics, Artificial Intelligence, and Reliability",
+    "authors": [
+      "Mark Ryan"
+    ],
+    "year": 2020,
+    "month": 6,
+    "venue": "Science and Engineering Ethics",
+    "url": "https://doi.org/10.1007/s11948-020-00228-y",
+    "abstract": "Abstract One of the main difficulties in assessing artificial intelligence (AI) is the tendency for people to anthropomorphise it. This becomes particularly problematic when we attach human moral activities to AI. For example, the European Commission’s High-level Expert Group on AI (HLEG) have adopted the position that we should establish a relationship of trust with AI and should cultivate trustworthy AI (HLEG AI Ethics guidelines for trustworthy AI, 2019, p. 35). Trust is one of the most impor",
+    "tags": [
+      "safety"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 500
+  },
+  {
+    "id": "r035",
+    "title": "Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence",
+    "authors": [
+      "Shakir Mohamed",
+      "Marie-Thérèse Png",
+      "William Isaac"
+    ],
+    "year": 2020,
+    "month": 7,
+    "venue": "Philosophy & Technology",
+    "url": "https://doi.org/10.1007/s13347-020-00405-8",
+    "abstract": "Abstract This paper explores the important role of critical science, and in particular of post-colonial and decolonial theories, in understanding and shaping the ongoing advances in artificial intelligence. Artificial intelligence (AI) is viewed as amongst the technological advances that will reshape modern societies and their relations. While the design and deployment of systems that continually adapt holds the promise of far-reaching positive change, they simultaneously pose significant risks,",
+    "tags": [
+      "reasoning"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 602
+  },
+  {
+    "id": "r110",
+    "title": "Artificial Intelligence in Advanced Manufacturing: Current Status and Future Outlook",
+    "authors": [
+      "Jorge Arinez",
+      "Qing Chang",
+      "Robert X. Gao",
+      "Chengying Xu",
+      "Jianjing Zhang"
+    ],
+    "year": 2020,
+    "month": 7,
+    "venue": "Journal of Manufacturing Science and Engineering",
+    "url": "https://doi.org/10.1115/1.4047855",
+    "abstract": "Abstract Today’s manufacturing systems are becoming increasingly complex, dynamic, and connected. The factory operations face challenges of highly nonlinear and stochastic activity due to the countless uncertainties and interdependencies that exist. Recent developments in artificial intelligence (AI), especially Machine Learning (ML) have shown great potential to transform the manufacturing domain through advanced analytics tools for processing the vast amounts of manufacturing data generated, k",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 490
+  },
+  {
+    "id": "r127",
+    "title": "A Research Agenda for Hybrid Intelligence: Augmenting Human Intellect With Collaborative, Adaptive, Responsible, and Explainable Artificial Intelligence",
+    "authors": [
+      "Zeynep Akata",
+      "Dan Balliet",
+      "Maarten de Rijke",
+      "Frank Dignum",
+      "Virginia Dignum"
+    ],
+    "year": 2020,
+    "month": 7,
+    "venue": "Computer",
+    "url": "https://doi.org/10.1109/mc.2020.2996587",
+    "abstract": "We define hybrid intelligence (HI) as the combination of human and machine intelligence, augmenting human intellect and capabilities instead of replacing them and achieving goals that were unreachable by either humans or machines. HI is an important new research focus for artificial intelligence, and we set a research agenda for HI by formulating four challenges.",
+    "tags": [
+      "multi-agent"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 337
+  },
+  {
+    "id": "r187",
+    "title": "Image Matching from Handcrafted to Deep Features: A Survey",
+    "authors": [
+      "Jiayi Ma",
+      "Xingyu Jiang",
+      "Aoxiang Fan",
+      "Junjun Jiang",
+      "Junchi Yan"
+    ],
+    "year": 2020,
+    "month": 8,
+    "venue": "International Journal of Computer Vision",
+    "url": "https://doi.org/10.1007/s11263-020-01359-2",
+    "abstract": "Abstract As a fundamental and critical task in various visual applications, image matching can identify then correspond the same or similar structure/content from two or more images. Over the past decades, growing amount and diversity of methods have been proposed for image matching, particularly with the development of deep learning techniques over the recent years. However, it may leave several open questions about which method would be a suitable choice for specific applications with respect ",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 922
+  },
+  {
+    "id": "r130",
+    "title": "Artificial Intelligence Chatbot Behavior Change Model for Designing Artificial Intelligence Chatbots to Promote Physical Activity and a Healthy Diet: Viewpoint",
+    "authors": [
+      "Jingwen Zhang",
+      "Yoo Jung Oh",
+      "Patrick Lange",
+      "Zhou Yu",
+      "Yoshimi Fukuoka"
+    ],
+    "year": 2020,
+    "month": 9,
+    "venue": "Journal of Medical Internet Research",
+    "url": "https://doi.org/10.2196/22845",
+    "abstract": "Background Chatbots empowered by artificial intelligence (AI) can increasingly engage in natural conversations and build relationships with users. Applying AI chatbots to lifestyle modification programs is one of the promising areas to develop cost-effective and feasible behavior interventions to promote physical activity and a healthy diet. Objective The purposes of this perspective paper are to present a brief literature review of chatbot use in promoting physical activity and a healthy diet, ",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 327
+  },
+  {
+    "id": "r196",
+    "title": "Attention in Natural Language Processing",
+    "authors": [
+      "Andrea Galassi",
+      "Marco Lippi",
+      "Paolo Torroni"
+    ],
+    "year": 2020,
+    "month": 9,
+    "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+    "url": "https://doi.org/10.1109/tnnls.2020.3019893",
+    "abstract": "Attention is an increasingly popular mechanism used in a wide range of neural architectures. The mechanism itself has been realized in a variety of formats. However, because of the fast-paced advances in this domain, a systematic overview of attention is still missing. In this article, we define a unified model for attention architectures in natural language processing, with a focus on those designed to work with vector representations of the textual data. We propose a taxonomy of attention mode",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 607
+  },
+  {
+    "id": "r009",
+    "title": "Network intrusion detection system: A systematic study of machine learning and deep learning approaches",
+    "authors": [
+      "Zeeshan Ahmad",
+      "Adnan Shahid Khan",
+      "Cheah Wai Shiang",
+      "Johari Abdullah",
+      "Farhan Ahmad"
+    ],
+    "year": 2020,
+    "month": 10,
+    "venue": "Transactions on Emerging Telecommunications Technologies",
+    "url": "https://doi.org/10.1002/ett.4150",
+    "abstract": "Abstract The rapid advances in the internet and communication fields have resulted in a huge increase in the network size and the corresponding data. As a result, many novel attacks are being generated and have posed challenges for network security to accurately detect intrusions. Furthermore, the presence of the intruders with the aim to launch various attacks within the network cannot be ignored. An intrusion detection system (IDS) is one such tool that prevents the network from possible intru",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 1101
+  },
+  {
+    "id": "r100",
+    "title": "A Survey on Explainable Artificial Intelligence (XAI): Toward Medical XAI",
+    "authors": [
+      "Erico Tjoa",
+      "Cuntai Guan"
+    ],
+    "year": 2020,
+    "month": 10,
+    "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+    "url": "https://doi.org/10.1109/tnnls.2020.3027314",
+    "abstract": "Recently, artificial intelligence and machine learning in general have demonstrated remarkable performances in many tasks, from image processing to natural language processing, especially with the advent of deep learning (DL). Along with research progress, they have encroached upon many different fields and disciplines. Some of them require high level of accountability and thus transparency, for example, the medical sector. Explanations for machine decisions and predictions are thus needed to ju",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 1930
+  },
+  {
+    "id": "r126",
+    "title": "A historical perspective of explainable Artificial Intelligence",
+    "authors": [
+      "Roberto Confalonieri",
+      "Ludovik Çoba",
+      "B.J. Wagner",
+      "Tarek R. Besold"
+    ],
+    "year": 2020,
+    "month": 10,
+    "venue": "Wiley Interdisciplinary Reviews Data Mining and Knowledge Discovery",
+    "url": "https://doi.org/10.1002/widm.1391",
+    "abstract": "Abstract Explainability in Artificial Intelligence (AI) has been revived as a topic of active research by the need of conveying safety and trust to users in the “how” and “why” of automated decision‐making in different applications such as autonomous driving, medical diagnosis, or banking and finance. While explainability in AI has recently received significant attention, the origins of this line of work go back several decades to when AI systems were mainly developed as (knowledge‐based) expert",
+    "tags": [
+      "safety"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 342
+  },
+  {
+    "id": "r007",
+    "title": "A strategic framework for artificial intelligence in marketing",
+    "authors": [
+      "Ming‐Hui Huang",
+      "Roland T. Rust"
+    ],
+    "year": 2020,
+    "month": 11,
+    "venue": "Journal of the Academy of Marketing Science",
+    "url": "https://doi.org/10.1007/s11747-020-00749-9",
+    "abstract": "Abstract The authors develop a three-stage framework for strategic marketing planning, incorporating multiple artificial intelligence (AI) benefits: mechanical AI for automating repetitive marketing functions and activities, thinking AI for processing data to arrive at decisions, and feeling AI for analyzing interactions and human emotions. This framework lays out the ways that AI can be used for marketing research, strategy (segmentation, targeting, and positioning, STP), and actions. At the ma",
+    "tags": [
+      "planning"
+    ],
+    "methods": [
+      "planning"
+    ],
+    "datasets": [],
+    "citations": 1302
+  },
+  {
+    "id": "r116",
+    "title": "Artificial intelligence in recommender systems",
+    "authors": [
+      "Qian Zhang",
+      "Jie Lü",
+      "Yaochu Jin"
+    ],
+    "year": 2020,
+    "month": 11,
+    "venue": "Complex & Intelligent Systems",
+    "url": "https://doi.org/10.1007/s40747-020-00212-w",
+    "abstract": "Abstract Recommender systems provide personalized service support to users by learning their previous behaviors and predicting their current preferences for particular products. Artificial intelligence (AI), particularly computational intelligence and machine learning methods and algorithms, has been naturally applied in the development of recommender systems to improve prediction accuracy and solve data sparsity and cold start problems. This position paper systematically discusses the basic met",
+    "tags": [
+      "RL"
+    ],
+    "methods": [
+      "role-playing"
+    ],
+    "datasets": [],
+    "citations": 403
+  },
+  {
+    "id": "r176",
+    "title": "The STRING database in 2021: customizable protein–protein networks, and functional characterization of user-uploaded gene/measurement sets",
+    "authors": [
+      "Damian Szklarczyk",
+      "Annika L. Gable",
+      "Katerina Nastou",
+      "David Lyon",
+      "Rebecca Kirsch"
+    ],
+    "year": 2020,
+    "month": 11,
+    "venue": "Nucleic Acids Research",
+    "url": "https://doi.org/10.1093/nar/gkaa1074",
+    "abstract": "Abstract Cellular life depends on a complex web of functional associations between biomolecules. Among these associations, protein–protein interactions are particularly important due to their versatility, specificity and adaptability. The STRING database aims to integrate all known and predicted associations between proteins, including both physical interactions as well as functional associations. To achieve this, STRING collects and scores evidence from a number of sources: (i) automated text m",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 8195
+  },
+  {
+    "id": "r182",
+    "title": "A Survey on Contrastive Self-Supervised Learning",
+    "authors": [
+      "Ashish Jaiswal"
+    ],
+    "year": 2020,
+    "month": 12,
+    "venue": "MDPI (MDPI AG)",
+    "url": "https://doi.org/10.3390/technologies9010002",
+    "abstract": "Self-supervised learning has gained popularity because of its ability to avoid the cost of annotating large-scale datasets. It is capable of adopting self-defined pseudolabels as supervision and use the learned representations for several downstream tasks. Specifically, contrastive learning has recently become a dominant component in self-supervised learning for computer vision, natural language processing (NLP), and other domains. It aims at embedding augmented versions of the same sample close",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 1447
+  },
+  {
+    "id": "r024",
+    "title": "Informed Machine Learning - A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems",
+    "authors": [
+      "Laura von Rueden",
+      "Sebastian Mayer",
+      "Katharina Beckh",
+      "Bogdan Georgiev",
+      "Sven Giesselbach"
+    ],
+    "year": 2021,
+    "month": 1,
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "url": "https://doi.org/10.1109/tkde.2021.3079836",
+    "abstract": "Despite its great success, machine learning can have its limits when dealing\\nwith insufficient training data. A potential solution is the additional\\nintegration of prior knowledge into the training process which leads to the\\nnotion of informed machine learning. In this paper, we present a structured\\noverview of various approaches in this field. We provide a definition and\\npropose a concept for informed machine learning which illustrates its building\\nblocks and distinguishes it from convent",
+    "tags": [
+      "RAG",
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 748
+  },
+  {
+    "id": "r048",
+    "title": "Deep Learning for Anomaly Detection in Time-Series Data: Review, Analysis, and Guidelines",
+    "authors": [
+      "Kukjin Choi",
+      "Jihun Yi",
+      "Changhwa Park",
+      "Sungroh Yoon"
+    ],
+    "year": 2021,
+    "month": 1,
+    "venue": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2021.3107975",
+    "abstract": "As industries become automated and connectivity technologies advance, a wide range of systems continues to generate massive amounts of data. Many approaches have been proposed to extract principal indicators from the vast sea of data to represent the entire system state. Detecting anomalies using these indicators on time prevent potential accidents and economic losses. Anomaly detection in multivariate time series data poses a particular challenge because it requires simultaneous consideration o",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 500
+  },
+  {
+    "id": "r114",
+    "title": "15-Minute City: Decomposing the New Urban Planning Eutopia",
+    "authors": [
+      "Georgia Pozoukidou",
+      "Zoi Chatziyiannaki"
+    ],
+    "year": 2021,
+    "month": 1,
+    "venue": "Sustainability",
+    "url": "https://doi.org/10.3390/su13020928",
+    "abstract": "As cities are struggling to cope with the second wave of the global COVID-19 pandemic, the idea of 15-min cities seem to have sparked planners’ imagination and politicians’ willingness for providing us with a new urban planning eutopia. This paper explores the “15-min city” concept as a structural and functional element for redesigning contemporary cities. Methodologically, a study of three case cities that have adopted this new model of city vision, is carried out. The analysis focus on underst",
+    "tags": [
+      "planning",
+      "reasoning"
+    ],
+    "methods": [
+      "planning"
+    ],
+    "datasets": [],
+    "citations": 470
+  },
+  {
+    "id": "r124",
+    "title": "The Roadmap to 6G Security and Privacy",
+    "authors": [
+      "Pawani Porambage",
+      "Gürkan Gür",
+      "Diana Pamela Moya Osorio",
+      "Madhusanka Liyanage",
+      "Andrei Gurtov"
+    ],
+    "year": 2021,
+    "month": 1,
+    "venue": "IEEE Open Journal of the Communications Society",
+    "url": "https://doi.org/10.1109/ojcoms.2021.3078081",
+    "abstract": "Although the fifth generation (5G) wireless networks are yet to be fully investigated, the visionaries of the 6th generation (6G) echo systems have already come into the discussion. Therefore, in order to consolidate and solidify the security and privacy in 6G networks, we survey how security may impact the envisioned 6G wireless systems, possible challenges with different 6G technologies, and the potential solutions. We provide our vision on 6G security and security key performance indicators (",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 370
+  },
+  {
+    "id": "r128",
+    "title": "A Survey of Traffic Prediction: from Spatio-Temporal Data to Intelligent Transportation",
+    "authors": [
+      "Haitao Yuan",
+      "Guoliang Li"
+    ],
+    "year": 2021,
+    "month": 1,
+    "venue": "Data Science and Engineering",
+    "url": "https://doi.org/10.1007/s41019-020-00151-z",
+    "abstract": "Abstract Intelligent transportation (e.g., intelligent traffic light) makes our travel more convenient and efficient. With the development of mobile Internet and position technologies, it is reasonable to collect spatio-temporal data and then leverage these data to achieve the goal of intelligent transportation, and here, traffic prediction plays an important role. In this paper, we provide a comprehensive survey on traffic prediction, which is from the spatio-temporal data layer to the intellig",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 336
+  },
+  {
+    "id": "r178",
+    "title": "SimCSE: Simple Contrastive Learning of Sentence Embeddings",
+    "authors": [
+      "Tianyu Gao",
+      "Xingcheng Yao",
+      "Danqi Chen"
+    ],
+    "year": 2021,
+    "month": 1,
+    "venue": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    "url": "https://doi.org/10.18653/v1/2021.emnlp-main.552",
+    "abstract": "This paper presents SimCSE, a simple contrastive learning framework that greatly advances the state-of-the-art sentence embeddings. We first describe an unsupervised approach, which takes an input sentence and predicts itself in a contrastive objective, with only standard dropout used as noise. This simple method works surprisingly well, performing on par with previous supervised counterparts. We find that dropout acts as minimal data augmentation and removing it leads to a representation collap",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 2377
+  },
+  {
+    "id": "r184",
+    "title": "Making Pre-trained Language Models Better Few-shot Learners",
+    "authors": [
+      "Tianyu Gao",
+      "Adam Fisch",
+      "Danqi Chen"
+    ],
+    "year": 2021,
+    "month": 1,
+    "venue": "arXiv",
+    "url": "https://doi.org/10.18653/v1/2021.acl-long.295",
+    "abstract": "Tianyu Gao, Adam Fisch, Danqi Chen. Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). 2021.",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 1209
+  },
+  {
+    "id": "r188",
+    "title": "A Survey on the Explainability of Supervised Machine Learning",
+    "authors": [
+      "Nadia Burkart",
+      "Marco F. Huber"
+    ],
+    "year": 2021,
+    "month": 1,
+    "venue": "Journal of Artificial Intelligence Research",
+    "url": "https://doi.org/10.1613/jair.1.12228",
+    "abstract": "Predictions obtained by, e.g., artificial neural networks have a high accuracy but humans often perceive the models as black boxes. Insights about the decision making are mostly opaque for humans. Particularly understanding the decision making in highly sensitive areas such as healthcare or finance, is of paramount importance. The decision-making behind the black boxes requires it to be more transparent, accountable, and understandable for humans. This survey paper provides essential definitions",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 907
+  },
+  {
+    "id": "r013",
+    "title": "Toward Causal Representation Learning",
+    "authors": [
+      "Bernhard Schölkopf",
+      "Francesco Locatello",
+      "Stefan Bauer",
+      "Nan Rosemary Ke",
+      "Nal Kalchbrenner"
+    ],
+    "year": 2021,
+    "month": 2,
+    "venue": "Proceedings of the IEEE",
+    "url": "https://doi.org/10.1109/jproc.2021.3058954",
+    "abstract": "The two fields of machine learning and graphical causality arose and are developed separately. However, there is, now, cross-pollination and increasing interest in both fields to benefit from the advances of the other. In this article, we review fundamental concepts of causal inference and relate them to crucial open problems of machine learning, including transfer and generalization, thereby assaying how causality can contribute to modern machine learning research. This also applies in the oppo",
+    "tags": [
+      "RL"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 909
+  },
+  {
+    "id": "r200",
+    "title": "Vision Transformers for Remote Sensing Image Classification",
+    "authors": [
+      "Yakoub Bazi",
+      "Laila Bashmal",
+      "Mohamad Mahmoud Al Rahhal",
+      "Reham Al-Dayil",
+      "Naif Al Ajlan"
+    ],
+    "year": 2021,
+    "month": 2,
+    "venue": "Remote Sensing",
+    "url": "https://doi.org/10.3390/rs13030516",
+    "abstract": "In this paper, we propose a remote-sensing scene-classification method based on vision transformers. These types of networks, which are now recognized as state-of-the-art models in natural language processing, do not rely on convolution layers as in standard convolutional neural networks (CNNs). Instead, they use multihead attention mechanisms as the main building block to derive long-range contextual relation between pixels in images. In a first step, the images under analysis are divided into ",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 545
+  },
+  {
+    "id": "r001",
+    "title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+    "authors": [
+      "Laith Alzubaidi",
+      "Jinglan Zhang",
+      "Amjad J. Humaidi",
+      "Ayad Q. Al-Dujaili",
+      "Ye Duan"
+    ],
+    "year": 2021,
+    "month": 3,
+    "venue": "Journal Of Big Data",
+    "url": "https://doi.org/10.1186/s40537-021-00444-8",
+    "abstract": "Abstract In the last few years, the deep learning (DL) computing paradigm has been deemed the Gold Standard in the machine learning (ML) community. Moreover, it has gradually become the most widely used computational approach in the field of ML, thus achieving outstanding results on several complex cognitive tasks, matching or even beating those provided by human performance. One of the benefits of DL is the ability to learn massive amounts of data. The DL field has grown fast in the last few ye",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 6949
+  },
+  {
+    "id": "r040",
+    "title": "Advancing Neuromorphic Computing With Loihi: A Survey of Results and Outlook",
+    "authors": [
+      "Mike Davies",
+      "Andreas Wild",
+      "Garrick Orchard",
+      "Yulia Sandamirskaya",
+      "G. A. Fonseca Guerra"
+    ],
+    "year": 2021,
+    "month": 4,
+    "venue": "Proceedings of the IEEE",
+    "url": "https://doi.org/10.1109/jproc.2021.3067593",
+    "abstract": "Deep artificial neural networks apply principles of the brain's information processing that led to breakthroughs in machine learning spanning many problem domains. Neuromorphic computing aims to take this a step further to chips more directly inspired by the form and function of biological neural circuits, so they can process new knowledge, adapt, behave, and learn in real time at low power levels. Despite several decades of research, until recently, very few published results have shown that to",
+    "tags": [
+      "reasoning",
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 559
+  },
+  {
+    "id": "r129",
+    "title": "Artificial Intelligence Techniques in Smart Grid: A Survey",
+    "authors": [
+      "Olufemi A. Omitaomu",
+      "Haoran Niu"
+    ],
+    "year": 2021,
+    "month": 4,
+    "venue": "Smart Cities",
+    "url": "https://doi.org/10.3390/smartcities4020029",
+    "abstract": "The smart grid is enabling the collection of massive amounts of high-dimensional and multi-type data about the electric power grid operations, by integrating advanced metering infrastructure, control technologies, and communication technologies. However, the traditional modeling, optimization, and control technologies have many limitations in processing the data; thus, the applications of artificial intelligence (AI) techniques in the smart grid are becoming more apparent. This survey presents a",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 328
+  },
+  {
+    "id": "r015",
+    "title": "Digital Twin: Origin to Future",
+    "authors": [
+      "Maulshree Singh",
+      "Evert Fuenmayor",
+      "Eoin P. Hinchy",
+      "Yuansong Qiao",
+      "Niall Murray"
+    ],
+    "year": 2021,
+    "month": 5,
+    "venue": "Applied System Innovation",
+    "url": "https://doi.org/10.3390/asi4020036",
+    "abstract": "Digital Twin (DT) refers to the virtual copy or model of any physical entity (physical twin) both of which are interconnected via exchange of data in real time. Conceptually, a DT mimics the state of its physical twin in real time and vice versa. Application of DT includes real-time monitoring, designing/planning, optimization, maintenance, remote access, etc. Its implementation is expected to grow exponentially in the coming decades. The advent of Industry 4.0 has brought complex industrial sys",
+    "tags": [
+      "planning"
+    ],
+    "methods": [
+      "planning"
+    ],
+    "datasets": [],
+    "citations": 869
+  },
+  {
+    "id": "r099",
+    "title": "Ten Years After: From UN Guiding Principles to Multi-Fiduciary Obligations",
+    "authors": [
+      "John Gerard Ruggie",
+      "Caroline Rees",
+      "Rachel Davis"
+    ],
+    "year": 2021,
+    "month": 5,
+    "venue": "Business and Human Rights Journal",
+    "url": "https://doi.org/10.1017/bhj.2021.8",
+    "abstract": "Abstract For the first time in four decades, leading business associations, corporations, and the corporate law and governance community are seriously debating moving beyond shareholder primacy toward some form of ‘stakeholder governance. But the how question unveils significant differences of opinion as well as difficulties. We focus on a pathway that complements the ambition of stakeholder governance, but which current reform proposals have largely overlooked. We draw on practical experience i",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 52
+  },
+  {
+    "id": "r105",
+    "title": "Med-BERT: pretrained contextualized embeddings on large-scale structured electronic health records for disease prediction",
+    "authors": [
+      "Laila Rasmy",
+      "Yang Xiang",
+      "Ziqian Xie",
+      "Cui Tao",
+      "Degui Zhi"
+    ],
+    "year": 2021,
+    "month": 5,
+    "venue": "npj Digital Medicine",
+    "url": "https://doi.org/10.1038/s41746-021-00455-y",
+    "abstract": "Abstract Deep learning (DL)-based predictive models from electronic health records (EHRs) deliver impressive performance in many clinical tasks. Large training cohorts, however, are often required by these models to achieve high accuracy, hindering the adoption of DL-based models in scenarios with limited training data. Recently, bidirectional encoder representations from transformers (BERT) and related models have achieved tremendous successes in the natural language processing domain. The pret",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 749
+  },
+  {
+    "id": "r039",
+    "title": "Deep learning for AI",
+    "authors": [
+      "Yoshua Bengio",
+      "Yann LeCun",
+      "Geoffrey E. Hinton"
+    ],
+    "year": 2021,
+    "month": 6,
+    "venue": "Communications of the ACM",
+    "url": "https://doi.org/10.1145/3448250",
+    "abstract": "How can neural networks learn the rich internal representations required for difficult tasks such as recognizing objects or understanding language?",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 577
+  },
+  {
+    "id": "r103",
+    "title": "Digital Transformation: An Overview of the Current State of the Art of Research",
+    "authors": [
+      "Sascha Kraus",
+      "Paul Jones",
+      "Norbert Kailer",
+      "Alexandra Weinmann",
+      "Nuria Chaparro‐Banegas"
+    ],
+    "year": 2021,
+    "month": 7,
+    "venue": "SAGE Open",
+    "url": "https://doi.org/10.1177/21582440211047576",
+    "abstract": "The increasing digitalization of economies has highlighted the importance of digital transformation and how it can help businesses stay competitive in the market. However, disruptive changes not only occur at the company level; they also have environmental, societal, and institutional implications. This is the reason why during the past two decades the research on digital transformation has received growing attention, with a wide range of topics investigated in the literature. The following aims",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 1060
+  },
+  {
+    "id": "r032",
+    "title": "IoT for Smart Cities: Machine Learning Approaches in Smart Healthcare—A Review",
+    "authors": [
+      "Taher M. Ghazal",
+      "Mohammad Kamrul Hasan",
+      "Muhammad Turki Alshurideh",
+      "Haitham M. Alzoubi",
+      "Munir Ahmad"
+    ],
+    "year": 2021,
+    "month": 8,
+    "venue": "Future Internet",
+    "url": "https://doi.org/10.3390/fi13080218",
+    "abstract": "Smart city is a collective term for technologies and concepts that are directed toward making cities efficient, technologically more advanced, greener and more socially inclusive. These concepts include technical, economic and social innovations. This term has been tossed around by various actors in politics, business, administration and urban planning since the 2000s to establish tech-based changes and innovations in urban areas. The idea of the smart city is used in conjunction with the utiliz",
+    "tags": [
+      "planning",
+      "reasoning"
+    ],
+    "methods": [
+      "planning"
+    ],
+    "datasets": [],
+    "citations": 637
+  },
+  {
+    "id": "r085",
+    "title": "Why Females Do Better: The X Chromosomal TLR7 Gene-Dose Effect in COVID-19",
+    "authors": [
+      "Anna E. Spiering",
+      "Teun J. de Vries"
+    ],
+    "year": 2021,
+    "month": 11,
+    "venue": "Frontiers in Immunology",
+    "url": "https://doi.org/10.3389/fimmu.2021.756262",
+    "abstract": "A male sex bias has emerged in the COVID-19 pandemic, fitting to the sex-biased pattern in other viral infections. Males are 2.84 times more often admitted to the ICU and mortality is 1.39 times higher as a result of COVID-19. Various factors play a role in this, and novel studies suggest that the gene-dose of Toll-Like Receptor (TLR) 7 could contribute to the sex-skewed severity. TLR7 is one of the crucial pattern recognition receptors for SARS-CoV-2 ssRNA and the gene-dose effect is caused by ",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 73
+  },
+  {
+    "id": "r005",
+    "title": "A Metaverse: Taxonomy, Components, Applications, and Open Challenges",
+    "authors": [
+      "Sangmin Park",
+      "Young‐Gab Kim"
+    ],
+    "year": 2022,
+    "month": 1,
+    "venue": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2021.3140175",
+    "abstract": "Unlike previous studies on the Metaverse based on Second Life, the current Metaverse is based on the social value of Generation Z that online and offline selves are not different. With the technological development of deep learning-based high-precision recognition models and natural generation models, Metaverse is being strengthened with various factors, from mobile-based always-on access to connectivity with reality using virtual currency. The integration of enhanced social activities and neura",
+    "tags": [
+      "reasoning"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 1669
+  },
+  {
+    "id": "r020",
+    "title": "Interpretable machine learning: Fundamental principles and 10 grand challenges",
+    "authors": [
+      "Cynthia Rudin",
+      "Chaofan Chen",
+      "Zhi Chen",
+      "Haiyang Huang",
+      "Lesia Semenova"
+    ],
+    "year": 2022,
+    "month": 1,
+    "venue": "Statistics Surveys",
+    "url": "https://doi.org/10.1214/21-ss133",
+    "abstract": "Interpretability in machine learning (ML) is crucial for high stakes decisions and troubleshooting. In this work, we provide fundamental principles for interpretable ML, and dispel common misunderstandings that dilute the importance of this crucial topic. We also identify 10 technical challenge areas in interpretable machine learning and provide history and background on each problem. Some of these problems are classically important, and some are recent problems that have arisen in the last few ",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 782
+  },
+  {
+    "id": "r037",
+    "title": "Safe Learning in Robotics: From Learning-Based Control to Safe Reinforcement Learning",
+    "authors": [
+      "Lukas Brunke",
+      "Melissa Greeff",
+      "Adam W. Hall",
+      "Zhaocong Yuan",
+      "Siqi Zhou"
+    ],
+    "year": 2022,
+    "month": 1,
+    "venue": "Annual Review of Control Robotics and Autonomous Systems",
+    "url": "https://doi.org/10.1146/annurev-control-042920-020211",
+    "abstract": "The last half decade has seen a steep rise in the number of contributions on safe learning methods for real-world robotic deployments from both the control and reinforcement learning communities. This article provides a concise but holistic review of the recent advances made in using machine learning to achieve safe decision-making under uncertainties, with a focus on unifying the language and frameworks used in control theory and reinforcement learning research. It includes learning-based contr",
+    "tags": [
+      "RL",
+      "safety"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 594
+  },
+  {
+    "id": "r042",
+    "title": "Fusing Blockchain and AI With Metaverse: A Survey",
+    "authors": [
+      "Qinglin Yang",
+      "Yetong Zhao",
+      "Huawei Huang",
+      "Zehui Xiong",
+      "Jiawen Kang"
+    ],
+    "year": 2022,
+    "month": 1,
+    "venue": "IEEE Open Journal of the Computer Society",
+    "url": "https://doi.org/10.1109/ojcs.2022.3188249",
+    "abstract": "Metaverse as the latest buzzword has attracted great attention from both industry and academia. Metaverse seamlessly integrates the real world with the virtual world and allows avatars to carry out rich activities including creation, display, entertainment, social networking, and trading. Thus, it is promising to build an exciting digital world and to transform a better physical world through the exploration of the metaverse. In this survey, we dive into the metaverse by discussing how Blockchai",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 535
+  },
+  {
+    "id": "r112",
+    "title": "Learning design to support student-AI collaboration: perspectives of leading teachers for AI in education",
+    "authors": [
+      "Jinhee Kim",
+      "Hyun-Kyung Lee",
+      "Young Hoan Cho"
+    ],
+    "year": 2022,
+    "month": 1,
+    "venue": "Education and Information Technologies",
+    "url": "https://doi.org/10.1007/s10639-021-10831-6",
+    "abstract": "Abstract Preparing students to collaborate with AI remains a challenging goal. As AI technologies are new to K-12 schools, there is a lack of studies that inform how to design learning when AI is introduced as a collaborative learning agent to classrooms. The present study, therefore, aimed to explore teachers’ perspectives on what (1) curriculum design, (2) student-AI interaction, and (3) learning environments are required to design student-AI collaboration (SAC) in learning and (4) how SAC wou",
+    "tags": [
+      "multi-agent",
+      "RL"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 478
+  },
+  {
+    "id": "r121",
+    "title": "AI Chains: Transparent and Controllable Human-AI Interaction by Chaining Large Language Model Prompts",
+    "authors": [
+      "Tongshuang Wu",
+      "Michael Terry",
+      "Carrie J. Cai"
+    ],
+    "year": 2022,
+    "month": 4,
+    "venue": "CHI Conference on Human Factors in Computing Systems",
+    "url": "https://doi.org/10.1145/3491102.3517582",
+    "abstract": "Although large language models (LLMs) have demonstrated impressive potential on simple tasks, their breadth of scope, lack of transparency, and insufficient controllability can make them less effective when assisting humans on more complex tasks. In response, we introduce the concept of Chaining LLM steps together, where the output of one step becomes the input for the next, thus aggregating the gains per step. We first define a set of LLM primitive operations useful for Chain construction, then",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 383
+  },
+  {
+    "id": "r017",
+    "title": "Artificial intelligence and smart vision for building and construction 4.0: Machine and deep learning methods and applications",
+    "authors": [
+      "Shanaka Kristombu Baduge",
+      "Sadeep Thilakarathna",
+      "Jude Shalitha Perera",
+      "Mehrdad Arashpour",
+      "P. Sharafi"
+    ],
+    "year": 2022,
+    "month": 6,
+    "venue": "Automation in Construction",
+    "url": "https://doi.org/10.1016/j.autcon.2022.104440",
+    "abstract": "This article presents a state-of-the-art review of the applications of Artificial Intelligence (AI), Machine Learning (ML), and Deep Learning (DL) in building and construction industry 4.0 in the facets of architectural design and visualization; material design and optimization; structural design and analysis; offsite manufacturing and automation; construction management, progress monitoring, and safety; smart operation, building management and health monitoring; and durability, life cycle analy",
+    "tags": [
+      "safety"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 820
+  },
+  {
+    "id": "r004",
+    "title": "Scientific Machine Learning Through Physics–Informed Neural Networks: Where we are and What’s Next",
+    "authors": [
+      "Salvatore Cuomo",
+      "Vincenzo Schiano Di Cola",
+      "Fabio Giampaolo",
+      "Gianluigi Rozza",
+      "Maziar Raissi"
+    ],
+    "year": 2022,
+    "month": 7,
+    "venue": "Journal of Scientific Computing",
+    "url": "https://doi.org/10.1007/s10915-022-01939-z",
+    "abstract": "Abstract Physics-Informed Neural Networks (PINN) are neural networks (NNs) that encode model equations, like Partial Differential Equations (PDE), as a component of the neural network itself. PINNs are nowadays used to solve PDEs, fractional equations, integral-differential equations, and stochastic PDEs. This novel methodology has arisen as a multi-task learning framework in which a NN must fit observed data while reducing a PDE residual. This article provides a comprehensive review of the lite",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 1881
+  },
+  {
+    "id": "r106",
+    "title": "Human-in-the-loop machine learning: a state of the art",
+    "authors": [
+      "Eduardo Mosqueira-Rey",
+      "Elena Hernández-Pereira",
+      "David Alonso-Ríos",
+      "José Bobes-Bascarán",
+      "Ángel Fernández-Leal"
+    ],
+    "year": 2022,
+    "month": 8,
+    "venue": "Artificial Intelligence Review",
+    "url": "https://doi.org/10.1007/s10462-022-10246-w",
+    "abstract": "Abstract Researchers are defining new types of interactions between humans and machine learning algorithms generically called human-in-the-loop machine learning. Depending on who is in control of the learning process, we can identify: active learning, in which the system remains in control; interactive machine learning, in which there is a closer interaction between users and learning systems; and machine teaching, where human domain experts have control over the learning process. Aside from con",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 679
+  },
+  {
+    "id": "r018",
+    "title": "Deep Residual Learning for Image Recognition: A Survey",
+    "authors": [
+      "Muhammad Shafiq",
+      "Zhaoquan Gu"
+    ],
+    "year": 2022,
+    "month": 9,
+    "venue": "Applied Sciences",
+    "url": "https://doi.org/10.3390/app12188972",
+    "abstract": "Deep Residual Networks have recently been shown to significantly improve the performance of neural networks trained on ImageNet, with results beating all previous methods on this dataset by large margins in the image classification task. However, the meaning of these impressive numbers and their implications for future research are not fully understood yet. In this survey, we will try to explain what Deep Residual Networks are, how they achieve their excellent results, and why their successful i",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 818
+  },
+  {
+    "id": "r014",
+    "title": "Ethical principles for artificial intelligence in education",
+    "authors": [
+      "Andy Nguyen",
+      "Ha Ngan Ngo",
+      "Yvonne Hong",
+      "Belle Dang",
+      "Bich‐Phuong Thi Nguyen"
+    ],
+    "year": 2022,
+    "month": 10,
+    "venue": "Education and Information Technologies",
+    "url": "https://doi.org/10.1007/s10639-022-11316-w",
+    "abstract": "Abstract The advancement of artificial intelligence in education (AIED) has the potential to transform the educational landscape and influence the role of all involved stakeholders. In recent years, the applications of AIED have been gradually adopted to progress our understanding of students’ learning and enhance learning performance and experience. However, the adoption of AIED has led to increasing ethical risks and concerns regarding several aspects such as personal data and learner autonomy",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "role-playing"
+    ],
+    "datasets": [],
+    "citations": 874
+  },
+  {
+    "id": "r050",
+    "title": "Artificial Intelligence in Education: AIEd for Personalised Learning Pathways",
+    "authors": [
+      "Olga Tapalova",
+      "Nadezhda Zhiyenbayeva"
+    ],
+    "year": 2022,
+    "month": 12,
+    "venue": "The Electronic Journal of e-Learning",
+    "url": "https://doi.org/10.34190/ejel.20.5.2597",
+    "abstract": "Artificial intelligence is the driving force of change focusing on the needs and demands of the student. The research explores Artificial Intelligence in Education (AIEd) for building personalised learning systems for students. The research investigates and proposes a framework for AIEd: social networking sites and chatbots, expert systems for education, intelligent mentors and agents, machine learning, personalised educational systems and virtual educational environments. These technologies hel",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "role-playing"
+    ],
+    "datasets": [],
+    "citations": 496
+  },
+  {
+    "id": "r022",
+    "title": "Understanding O-RAN: Architecture, Interfaces, Algorithms, Security, and Research Challenges",
+    "authors": [
+      "Michele Polese",
+      "Leonardo Bonati",
+      "Salvatore D’Oro",
+      "Stefano Basagni",
+      "Tommaso Melodia"
+    ],
+    "year": 2023,
+    "month": 1,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "url": "https://doi.org/10.1109/comst.2023.3239220",
+    "abstract": "The Open Radio Access Network (RAN) and its embodiment through the O-RAN Alliance specifications are poised to revolutionize the telecom ecosystem. O-RAN promotes virtualized RANs where disaggregated components are connected via open interfaces and optimized by intelligent controllers. The result is a new paradigm for the RAN design, deployment, and operations: O-RAN networks can be built with multivendor, interoperable components, and can be programmatically optimized through a centralized abst",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 774
+  },
+  {
+    "id": "r075",
+    "title": "RepoCoder: Repository-Level Code Completion Through Iterative Retrieval and Generation",
+    "authors": [
+      "Fengji Zhang",
+      "Bei Chen",
+      "Yue Zhang",
+      "Jacky Keung",
+      "Jin Liu"
+    ],
+    "year": 2023,
+    "month": 1,
+    "venue": "arXiv",
+    "url": "https://doi.org/10.18653/v1/2023.emnlp-main.151",
+    "abstract": "Fengji Zhang, Bei Chen, Yue Zhang, Jacky Keung, Jin Liu, Daoguang Zan, Yi Mao, Jian-Guang Lou, Weizhu Chen. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing. 2023.",
+    "tags": [
+      "code-agent",
+      "RAG"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 89
+  },
+  {
+    "id": "r079",
+    "title": "Character-LLM: A Trainable Agent for Role-Playing",
+    "authors": [
+      "Yunfan Shao",
+      "Linyang Li",
+      "Junqi Dai",
+      "Xipeng Qiu"
+    ],
+    "year": 2023,
+    "month": 1,
+    "venue": "arXiv",
+    "url": "https://doi.org/10.18653/v1/2023.emnlp-main.814",
+    "abstract": "Large language models (LLMs) can be used to serve as agents to simulate human behaviors, given the powerful ability to understand human instructions and provide high-quality generated texts. Such ability stimulates us to wonder whether LLMs can simulate a person in a higher form than simple human behaviors. Therefore, we aim to train an agent with the profile, experience, and emotional states of a specific person instead of using limited prompts to instruct ChatGPT API. In this work, we introduc",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "role-playing"
+    ],
+    "datasets": [],
+    "citations": 84
+  },
+  {
+    "id": "r082",
+    "title": "The Troubling Emergence of Hallucination in Large Language Models - An Extensive Definition, Quantification, and Prescriptive Remediations",
+    "authors": [
+      "Vipula Rawte",
+      "Swagata Chakraborty",
+      "Agnibh Pathak",
+      "Anubhav Sarkar",
+      "S. M Towhidul Islam Tonmoy"
+    ],
+    "year": 2023,
+    "month": 1,
+    "venue": "arXiv",
+    "url": "https://doi.org/10.18653/v1/2023.emnlp-main.155",
+    "abstract": "Vipula Rawte, Swagata Chakraborty, Agnibh Pathak, Anubhav Sarkar, S.M Towhidul Islam Tonmoy, Aman Chadha, Amit Sheth, Amitava Das. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing. 2023.",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 76
+  },
+  {
+    "id": "r084",
+    "title": "SemEval-2023 Task 3: Detecting the Category, the Framing, and the Persuasion Techniques in Online News in a Multi-lingual Setup",
+    "authors": [
+      "Jakub Piskorski",
+      "Nicolas Stefanovitch",
+      "Giovanni Da San Martino",
+      "Preslav Nakov"
+    ],
+    "year": 2023,
+    "month": 1,
+    "venue": "arXiv",
+    "url": "https://doi.org/10.18653/v1/2023.semeval-1.317",
+    "abstract": "We describe SemEval-2023 task 3 on Detecting the Category, the Framing, and the Persuasion Techniques in Online News in a Multilingual Setup: the dataset, the task organization process, the evaluation setup, the results, and the participating systems. The task focused on news articles in nine languages (six known to the participants upfront: English, French, German, Italian, Polish, and Russian), and three additional ones revealed to the participants at the testing phase: Spanish, Greek, and Geo",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 73
+  },
+  {
+    "id": "r091",
+    "title": "NeMo Guardrails: A Toolkit for Controllable and Safe LLM Applications with Programmable Rails",
+    "authors": [
+      "Traian Rebedea",
+      "Razvan Dinu",
+      "Makesh Narsimhan Sreedhar",
+      "Christopher Parisien",
+      "Jonathan Cohen"
+    ],
+    "year": 2023,
+    "month": 1,
+    "venue": "arXiv",
+    "url": "https://doi.org/10.18653/v1/2023.emnlp-demo.40",
+    "abstract": "Traian Rebedea, Razvan Dinu, Makesh Narsimhan Sreedhar, Christopher Parisien, Jonathan Cohen. Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing: System Demonstrations. 2023.",
+    "tags": [
+      "safety",
+      "tool-use",
+      "code-agent"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 64
+  },
+  {
+    "id": "r092",
+    "title": "Speak, Memory: An Archaeology of Books Known to ChatGPT/GPT-4",
+    "authors": [
+      "Kent K. Chang",
+      "Mackenzie Hạnh Cramer",
+      "Sandeep Soni",
+      "David Bamman"
+    ],
+    "year": 2023,
+    "month": 1,
+    "venue": "arXiv",
+    "url": "https://doi.org/10.18653/v1/2023.emnlp-main.453",
+    "abstract": "In this work, we carry out a data archaeology to infer books that are known to ChatGPT and GPT-4 using a name cloze membership inference query. We find that OpenAI models have memorized a wide collection of copyrighted materials, and that the degree of memorization is tied to the frequency with which passages of those books appear on the web. The ability of these models to memorize an unknown set of books complicates assessments of measurement validity for cultural analytics by contaminating tes",
+    "tags": [
+      "memory",
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 62
+  },
+  {
+    "id": "r132",
+    "title": "Towards Reasoning in Large Language Models: A Survey",
+    "authors": [
+      "Jie Huang",
+      "Kevin Chen–Chuan Chang"
+    ],
+    "year": 2023,
+    "month": 1,
+    "venue": "arXiv",
+    "url": "https://doi.org/10.18653/v1/2023.findings-acl.67",
+    "abstract": "Reasoning is a fundamental aspect of human intelligence that plays a crucial role in activities such as problem solving, decision making, and critical thinking. In recent years, large language models (LLMs) have made significant progress in natural language processing, and there is observation that these models may exhibit reasoning abilities when they are sufficiently large. However, it is not yet clear to what extent LLMs are capable of reasoning. This paper provides a comprehensive overview o",
+    "tags": [
+      "reasoning",
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 309
+  },
+  {
+    "id": "r137",
+    "title": "A Survey on ChatGPT: AI–Generated Contents, Challenges, and Solutions",
+    "authors": [
+      "Yuntao Wang",
+      "Yanghe Pan",
+      "Miao Yan",
+      "Zhou Su",
+      "Tom H. Luan"
+    ],
+    "year": 2023,
+    "month": 1,
+    "venue": "IEEE Open Journal of the Computer Society",
+    "url": "https://doi.org/10.1109/ojcs.2023.3300321",
+    "abstract": "With the widespread use of large artificial intelligence (AI) models such as ChatGPT, AI-generated content (AIGC) has garnered increasing attention and is leading a paradigm shift in content creation and knowledge representation. AIGC uses generative large AI algorithms to assist or replace humans in creating massive, high-quality, and human-like content at a faster pace and lower cost, based on user-provided prompts. Despite the recent significant progress in AIGC, security, privacy, ethical, a",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 277
+  },
+  {
+    "id": "r154",
+    "title": "An Overview on Generative AI at Scale With Edge–Cloud Computing",
+    "authors": [
+      "Yun-Cheng Wang",
+      "Jintang Xue",
+      "Chengwei Wei",
+      "C.‐C. Jay Kuo"
+    ],
+    "year": 2023,
+    "month": 1,
+    "venue": "IEEE Open Journal of the Communications Society",
+    "url": "https://doi.org/10.1109/ojcoms.2023.3320646",
+    "abstract": "As a specific category of artificial intelligence (AI), generative artificial intelligence (GenAI) generates new content that resembles what humans create. The rapid development of GenAI systems has created a huge amount of new data on the Internet, posing new challenges to current computing and communication frameworks. Currently, GenAI services rely on the traditional cloud computing framework due to the need for large computation resources. However, such services will encounter high latency b",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 70
+  },
+  {
+    "id": "r165",
+    "title": "Theory of Mind for Multi-Agent Collaboration via Large Language Models",
+    "authors": [
+      "Huao Li",
+      "Chong Yu",
+      "Simon Stepputtis",
+      "Joseph Campbell",
+      "Dana Hughes"
+    ],
+    "year": 2023,
+    "month": 1,
+    "venue": "arXiv",
+    "url": "https://doi.org/10.18653/v1/2023.emnlp-main.13",
+    "abstract": "While Large Language Models (LLMs) have demonstrated impressive accomplishments in both reasoning and planning, their abilities in multi-agent collaborations remains largely unexplored. This study evaluates LLM-based agents in a multi-agent cooperative text game with Theory of Mind (ToM) inference tasks, comparing their performance with Multi-Agent Reinforcement Learning (MARL) and planning-based baselines. We observed evidence of emergent collaborative behaviors and high-order Theory of Mind ca",
+    "tags": [
+      "planning",
+      "multi-agent",
+      "evaluation",
+      "reasoning",
+      "RL"
+    ],
+    "methods": [
+      "planning",
+      "multi-agent"
+    ],
+    "datasets": [],
+    "citations": 51
+  },
+  {
+    "id": "r198",
+    "title": "A Survey of Graph Neural Networks for Recommender Systems: Challenges, Methods, and Directions",
+    "authors": [
+      "Chen Gao",
+      "Yu Zheng",
+      "Nian Li",
+      "Yinfeng Li",
+      "Yingrong Qin"
+    ],
+    "year": 2023,
+    "month": 1,
+    "venue": "ACM Transactions on Recommender Systems",
+    "url": "https://doi.org/10.1145/3568022",
+    "abstract": "Recommender system is one of the most important information services on today’s Internet. Recently, graph neural networks have become the new state-of-the-art approach to recommender systems. In this survey, we conduct a comprehensive review of the literature on graph neural network-based recommender systems. We first introduce the background and the history of the development of both recommender systems and graph neural networks. For recommender systems, in general, there are four aspects for c",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 583
+  },
+  {
+    "id": "r104",
+    "title": "Firm‐Level Climate Change Exposure",
+    "authors": [
+      "Zacharias Sautner",
+      "Laurence van Lent",
+      "Grigory Vilkov",
+      "RUISHEN ZHANG"
+    ],
+    "year": 2023,
+    "month": 2,
+    "venue": "The Journal of Finance",
+    "url": "https://doi.org/10.1111/jofi.13219",
+    "abstract": "ABSTRACT We develop a method that identifies the attention paid by earnings call participants to firms' climate change exposures. The method adapts a machine learning keyword discovery algorithm and captures exposures related to opportunity, physical, and regulatory shocks associated with climate change. The measures are available for more than 10,000 firms from 34 countries between 2002 and 2020. We show that the measures are useful in predicting important real outcomes related to the net‐zero ",
+    "tags": [
+      "RL"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 990
+  },
+  {
+    "id": "r160",
+    "title": "ChatGPT for Computational Social Systems: From Conversational Applications to Human-Oriented Operating Systems",
+    "authors": [
+      "Fei‐Yue Wang",
+      "Juanjuan Li",
+      "Rui Qin",
+      "Jing Zhu",
+      "Hong Mo"
+    ],
+    "year": 2023,
+    "month": 3,
+    "venue": "IEEE Transactions on Computational Social Systems",
+    "url": "https://doi.org/10.1109/tcss.2023.3252679",
+    "abstract": "Welcome to the second issue of the IEEE TRANSACTIONS ON COMPUTATIONAL SOCIAL SYSTEMS (TCSS) of 2023. According to the latest update of CiteScoreTracker from Elsevier Scopus released on February 5, 2023, the CitesSore of TCSS has reached a historical high of 9.6. Many thanks to all for your great effort and support.",
+    "tags": [
+      "RL"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 58
+  },
+  {
+    "id": "r051",
+    "title": "War of the chatbots: Bard, Bing Chat, ChatGPT, Ernie and beyond. The new AI gold rush and its impact on higher education",
+    "authors": [
+      "Jürgen Rudolph",
+      "Shannon Tan",
+      "Samson Tan"
+    ],
+    "year": 2023,
+    "month": 4,
+    "venue": "Journal of Applied Learning & Teaching",
+    "url": "https://doi.org/10.37074/jalt.2023.6.1.23",
+    "abstract": "Developments in the chatbot space have been accelerating at breakneck speed since late November 2022. Every day, there appears to be a plethora of news. A war of competitor chatbots is raging amidst an AI arms race and gold rush. These rapid developments impact higher education, as millions of students and academics have started using bots like ChatGPT, Bing Chat, Bard, Ernie and others for a large variety of purposes. In this article, we select some of the most promising chatbots in the English",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 383
+  },
+  {
+    "id": "r054",
+    "title": "Grounded Copilot: How Programmers Interact with Code-Generating Models",
+    "authors": [
+      "Shraddha Barke",
+      "Michael B. James",
+      "Nadia Polikarpova"
+    ],
+    "year": 2023,
+    "month": 4,
+    "venue": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3586030",
+    "abstract": "Powered by recent advances in code-generating models, AI assistants like Github Copilot promise to change the face of programming forever. But what is this new face of programming? We present the first grounded theory analysis of how programmers interact with Copilot, based on observing 20 participants—with a range of prior experience using the assistant—as they solve diverse programming tasks across four languages. Our main finding is that interactions with programming assistants are bimodal : ",
+    "tags": [
+      "code-agent"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 292
+  },
+  {
+    "id": "r057",
+    "title": "Synthetic Lies: Understanding AI-Generated Misinformation and Evaluating Algorithmic and Human Solutions",
+    "authors": [
+      "Jiawei Zhou",
+      "Yixuan Zhang",
+      "Qianni Luo",
+      "Andrea G. Parker",
+      "Munmun De Choudhury"
+    ],
+    "year": 2023,
+    "month": 4,
+    "venue": "arXiv",
+    "url": "https://doi.org/10.1145/3544548.3581318",
+    "abstract": "Large language models have abilities in creating high-volume human-like texts and can be used to generate persuasive misinformation. However, the risks remain under-explored. To address the gap, this work first examined characteristics of AI-generated misinformation (AI-misinfo) compared with human creations, and then evaluated the applicability of existing solutions. We compiled human-created COVID-19 misinformation and abstracted it into narrative prompts for a language model to output AI-misi",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 232
+  },
+  {
+    "id": "r088",
+    "title": "Designing Responsible AI: Adaptations of UX Practice to Meet Responsible AI Challenges",
+    "authors": [
+      "Qiaosi Wang",
+      "Michael Madaio",
+      "Shaun K. Kane",
+      "Shivani Kapania",
+      "Michael Terry"
+    ],
+    "year": 2023,
+    "month": 4,
+    "venue": "arXiv",
+    "url": "https://doi.org/10.1145/3544548.3581278",
+    "abstract": "Technology companies continue to invest in efforts to incorporate responsibility in their Artificial Intelligence (AI) advancements, while efforts to audit and regulate AI systems expand. This shift towards Responsible AI (RAI) in the tech industry necessitates new practices and adaptations to roles—undertaken by a variety of practitioners in more or less formal positions, many of whom focus on the user-centered aspects of AI. To better understand practices at the intersection of user experience",
+    "tags": [
+      "safety"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 70
+  },
+  {
+    "id": "r107",
+    "title": "A survey on deep learning tools dealing with data scarcity: definitions, challenges, solutions, tips, and applications",
+    "authors": [
+      "Laith Alzubaidi",
+      "Jinshuai Bai",
+      "Aiman Al-Sabaawi",
+      "José Santamaría",
+      "A. S. Albahri"
+    ],
+    "year": 2023,
+    "month": 4,
+    "venue": "Journal Of Big Data",
+    "url": "https://doi.org/10.1186/s40537-023-00727-2",
+    "abstract": "Abstract Data scarcity is a major challenge when training deep learning (DL) models. DL demands a large amount of data to achieve exceptional performance. Unfortunately, many applications have small or inadequate data to train DL frameworks. Usually, manual labeling is needed to provide labeled data, which typically involves human annotators with a vast background of knowledge. This annotation process is costly, time-consuming, and error-prone. Usually, every DL framework is fed by a significant",
+    "tags": [
+      "tool-use",
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 666
+  },
+  {
+    "id": "r194",
+    "title": "Deep learning modelling techniques: current progress, applications, advantages, and challenges",
+    "authors": [
+      "Shams Forruque Ahmed",
+      "Md. Sakib Bin Alam",
+      "Maruf Hassan",
+      "Mahtabin Rodela Rozbu",
+      "Taoseef Ishtiak"
+    ],
+    "year": 2023,
+    "month": 4,
+    "venue": "Artificial Intelligence Review",
+    "url": "https://doi.org/10.1007/s10462-023-10466-8",
+    "abstract": "Abstract Deep learning (DL) is revolutionizing evidence-based decision-making techniques that can be applied across various sectors. Specifically, it possesses the ability to utilize two or more levels of non-linear feature transformation of the given data via representation learning in order to overcome limitations posed by large datasets. As a multidisciplinary field that is still in its nascent phase, articles that survey DL architectures encompassing the full scope of the field are rather li",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 759
+  },
+  {
+    "id": "r025",
+    "title": "Multimodal Learning With Transformers: A Survey",
+    "authors": [
+      "Peng Xu",
+      "Xiatian Zhu",
+      "David A. Clifton"
+    ],
+    "year": 2023,
+    "month": 5,
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "url": "https://doi.org/10.1109/tpami.2023.3275156",
+    "abstract": "Transformer is a promising neural network learner, and has achieved great success in various machine learning tasks. Thanks to the recent prevalence of multimodal applications and Big Data, Transformer-based multimodal learning has become a hot topic in AI research. This paper presents a comprehensive survey of Transformer techniques oriented at multimodal data. The main contents of this survey include: (1) a background of multimodal learning, Transformer ecosystem, and the multimodal Big Data e",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 735
+  },
+  {
+    "id": "r061",
+    "title": "Auditing large language models: a three-layered approach",
+    "authors": [
+      "Jakob Mökander",
+      "Jonas Schuett",
+      "Hannah Rose Kirk",
+      "Luciano Floridi"
+    ],
+    "year": 2023,
+    "month": 5,
+    "venue": "AI and Ethics",
+    "url": "https://doi.org/10.1007/s43681-023-00289-2",
+    "abstract": "Abstract Large language models (LLMs) represent a major advance in artificial intelligence (AI) research. However, the widespread use of LLMs is also coupled with significant ethical and social challenges. Previous research has pointed towards auditing as a promising governance mechanism to help ensure that AI systems are designed and deployed in ways that are ethical, legal, and technically robust. However, existing auditing procedures fail to address the governance challenges posed by LLMs, wh",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 155
+  },
+  {
+    "id": "r073",
+    "title": "Grammatical Error Correction: A Survey of the State of the Art",
+    "authors": [
+      "Christopher Bryant",
+      "Zheng Yuan",
+      "Muhammad Reza Qorib",
+      "Hannan Cao",
+      "Hwee Tou Ng"
+    ],
+    "year": 2023,
+    "month": 5,
+    "venue": "Computational Linguistics",
+    "url": "https://doi.org/10.1162/coli_a_00478",
+    "abstract": "Abstract Grammatical Error Correction (GEC) is the task of automatically detecting and correcting errors in text. The task not only includes the correction of grammatical errors, such as missing prepositions and mismatched subject–verb agreement, but also orthographic and semantic errors, such as misspellings and word choice errors, respectively. The field has seen significant progress in the last decade, motivated in part by a series of five shared tasks, which drove the development of rule-bas",
+    "tags": [
+      "evaluation",
+      "self-refine"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 99
+  },
+  {
+    "id": "r077",
+    "title": "Evolutionary psychiatry: foundations, progress and challenges",
+    "authors": [
+      "Randolph M. Nesse"
+    ],
+    "year": 2023,
+    "month": 5,
+    "venue": "World Psychiatry",
+    "url": "https://doi.org/10.1002/wps.21072",
+    "abstract": "Evolutionary biology provides a crucial foundation for medicine and behavioral science that has been missing from psychiatry. Its absence helps to explain slow progress; its advent promises major advances. Instead of offering a new kind of treatment, evolutionary psychiatry provides a scientific foundation useful for all kinds of treatment. It expands the search for causes from mechanistic explanations for disease in some individuals to evolutionary explanations for traits that make all members ",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 86
+  },
+  {
+    "id": "r081",
+    "title": "Waiting for a digital therapist: three challenges on the path to psychotherapy delivered by artificial intelligence",
+    "authors": [
+      "J. P. Grodniewicz",
+      "Mateusz Hohol"
+    ],
+    "year": 2023,
+    "month": 6,
+    "venue": "Frontiers in Psychiatry",
+    "url": "https://doi.org/10.3389/fpsyt.2023.1190084",
+    "abstract": "Growing demand for broadly accessible mental health care, together with the rapid development of new technologies, trigger discussions about the feasibility of psychotherapeutic interventions based on interactions with Conversational Artificial Intelligence (CAI). Many authors argue that while currently available CAI can be a useful supplement for human-delivered psychotherapy, it is not yet capable of delivering fully fledged psychotherapy on its own. The goal of this paper is to investigate wh",
+    "tags": [
+      "tool-use"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 76
+  },
+  {
+    "id": "r090",
+    "title": "ChatGPT: deconstructing the debate and moving it forward",
+    "authors": [
+      "Mark Coeckelbergh",
+      "David J. Gunkel"
+    ],
+    "year": 2023,
+    "month": 6,
+    "venue": "AI & Society",
+    "url": "https://doi.org/10.1007/s00146-023-01710-4",
+    "abstract": "Abstract Large language models such as ChatGPT enable users to automatically produce text but also raise ethical concerns, for example about authorship and deception. This paper analyses and discusses some key philosophical assumptions in these debates, in particular assumptions about authorship and language and—our focus—the use of the appearance/reality distinction. We show that there are alternative views of what goes on with ChatGPT that do not rely on this distinction. For this purpose, we ",
+    "tags": [
+      "multi-agent"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 65
+  },
+  {
+    "id": "r094",
+    "title": "Evaluating the Performance of Code Generation Models for Solving Parsons Problems With Small Prompt Variations",
+    "authors": [
+      "Brent N. Reeves",
+      "Sami Sarsa",
+      "James Prather",
+      "Paul Denny",
+      "Brett A. Becker"
+    ],
+    "year": 2023,
+    "month": 6,
+    "venue": "arXiv",
+    "url": "https://doi.org/10.1145/3587102.3588805",
+    "abstract": "Publisher Copyright: © 2023 Owner/Author.",
+    "tags": [
+      "evaluation",
+      "code-agent"
+    ],
+    "methods": [
+      "code generation"
+    ],
+    "datasets": [],
+    "citations": 56
+  },
+  {
+    "id": "r134",
+    "title": "Regulating ChatGPT and other Large Generative AI Models",
+    "authors": [
+      "Philipp Hacker",
+      "Andreas Engel",
+      "Marco Mauer"
+    ],
+    "year": 2023,
+    "month": 6,
+    "venue": "arXiv",
+    "url": "https://doi.org/10.1145/3593013.3594067",
+    "abstract": "Large generative AI models (LGAIMs), such as ChatGPT, GPT-4 or Stable Diffusion, are rapidly transforming the way we communicate, illustrate, and create. However, AI regulation, in the EU and beyond, has primarily focused on conventional AI models, not LGAIMs. This paper will situate these new generative models in the current debate on trustworthy AI regulation, and ask how the law can be tailored to their capabilities. After laying technical foundations, the legal part of the paper proceeds in ",
+    "tags": [
+      "safety"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 377
+  },
+  {
+    "id": "r142",
+    "title": "Artificial intelligence for supply chain management: Disruptive innovation or innovative disruption?",
+    "authors": [
+      "Christian Hendriksen"
+    ],
+    "year": 2023,
+    "month": 6,
+    "venue": "Journal of Supply Chain Management",
+    "url": "https://doi.org/10.1111/jscm.12304",
+    "abstract": "Abstract This article examines the theoretical and practical implications of artificial intelligence (AI) integration in supply chain management (SCM). AI has developed dramatically in recent years, embodied by the newest generation of large language models (LLMs) that exhibit human‐like capabilities in various domains. However, SCM as a discipline seems unprepared for this potential revolution, as existing perspectives do not capture the potential for disruption offered by AI tools. Moreover, A",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 143
+  },
+  {
+    "id": "r028",
+    "title": "Human resource management in the age of generative artificial intelligence: Perspectives and research directions on ChatGPT",
+    "authors": [
+      "Pawan Budhwar",
+      "Soumyadeb Chowdhury",
+      "Geoffrey Wood",
+      "Herman Aguinis",
+      "Greg J. Bamber"
+    ],
+    "year": 2023,
+    "month": 7,
+    "venue": "Human Resource Management Journal",
+    "url": "https://doi.org/10.1111/1748-8583.12524",
+    "abstract": "Abstract ChatGPT and its variants that use generative artificial intelligence (AI) models have rapidly become a focal point in academic and media discussions about their potential benefits and drawbacks across various sectors of the economy, democracy, society, and environment. It remains unclear whether these technologies result in job displacement or creation, or if they merely shift human labour by generating new, potentially trivial or practically irrelevant, information and decisions. Accor",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 659
+  },
+  {
+    "id": "r169",
+    "title": "Ethical Challenges in the Development of Virtual Assistants Powered by Large Language Models",
+    "authors": [
+      "Andrés Piñeiro-Martín",
+      "Carmén García Mateo",
+      "Laura Docío-Fernández",
+      "María del Carmen López-Pérez"
+    ],
+    "year": 2023,
+    "month": 7,
+    "venue": "Electronics",
+    "url": "https://doi.org/10.3390/electronics12143170",
+    "abstract": "Virtual assistants (VAs) have gained widespread popularity across a wide range of applications, and the integration of Large Language Models (LLMs), such as ChatGPT, has opened up new possibilities for developing even more sophisticated VAs. However, this integration poses new ethical issues and challenges that must be carefully considered, particularly as these systems are increasingly used in public services: transfer of personal data, decision-making transparency, potential biases, and privac",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "role-playing"
+    ],
+    "datasets": [],
+    "citations": 42
+  },
+  {
+    "id": "r031",
+    "title": "Challenges and Opportunities of Generative AI for Higher Education as Explained by ChatGPT",
+    "authors": [
+      "Rosario Michel‐Villarreal",
+      "Eliseo Luis Vilalta-perdomo",
+      "David Ernesto Salinas-Navarro",
+      "Ricardo Thierry-Aguilera",
+      "Flor Silvestre Gerardou"
+    ],
+    "year": 2023,
+    "month": 8,
+    "venue": "Education Sciences",
+    "url": "https://doi.org/10.3390/educsci13090856",
+    "abstract": "ChatGPT is revolutionizing the field of higher education by leveraging deep learning models to generate human-like content. However, its integration into academic settings raises concerns regarding academic integrity, plagiarism detection, and the potential impact on critical thinking skills. This article presents a study that adopts a thing ethnography approach to understand ChatGPT’s perspective on the challenges and opportunities it represents for higher education. The research explores the p",
+    "tags": [
+      "RL"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 643
+  },
+  {
+    "id": "r133",
+    "title": "Practical and ethical challenges of large language models in education: A systematic scoping review",
+    "authors": [
+      "Lixiang Yan",
+      "Lele Sha",
+      "Linxuan Zhao",
+      "Yuheng Li",
+      "Roberto Martínez‐Maldonado"
+    ],
+    "year": 2023,
+    "month": 8,
+    "venue": "British Journal of Educational Technology",
+    "url": "https://doi.org/10.1111/bjet.13370",
+    "abstract": "Abstract Educational technology innovations leveraging large language models (LLMs) have shown the potential to automate the laborious process of generating and analysing textual content. While various innovations have been developed to automate a range of educational tasks (eg, question generation, feedback provision, and essay grading), there are concerns regarding the practicality and ethicality of these innovations. Such concerns may hinder future research and the adoption of LLMs‐based inno",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 535
+  },
+  {
+    "id": "r138",
+    "title": "A Comprehensive Study of ChatGPT: Advancements, Limitations, and Ethical Considerations in Natural Language Processing and Cybersecurity",
+    "authors": [
+      "Moatsum Alawida",
+      "Sami Mejri",
+      "Abid Mehmood",
+      "Belkacem Chikhaoui",
+      "Oludare Isaac Abiodun"
+    ],
+    "year": 2023,
+    "month": 8,
+    "venue": "Information",
+    "url": "https://doi.org/10.3390/info14080462",
+    "abstract": "This paper presents an in-depth study of ChatGPT, a state-of-the-art language model that is revolutionizing generative text. We provide a comprehensive analysis of its architecture, training data, and evaluation metrics and explore its advancements and enhancements over time. Additionally, we examine the capabilities and limitations of ChatGPT in natural language processing (NLP) tasks, including language translation, text summarization, and dialogue generation. Furthermore, we compare ChatGPT t",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 185
+  },
+  {
+    "id": "r140",
+    "title": "Survey on Explainable AI: From Approaches, Limitations and Applications Aspects",
+    "authors": [
+      "Wenli Yang",
+      "Yu-Chen Wei",
+      "H. Wei",
+      "Yanyu Chen",
+      "Guan Huang"
+    ],
+    "year": 2023,
+    "month": 8,
+    "venue": "Human-Centric Intelligent Systems",
+    "url": "https://doi.org/10.1007/s44230-023-00038-y",
+    "abstract": "Abstract In recent years, artificial intelligence (AI) technology has been used in most if not all domains and has greatly benefited our lives. While AI can accurately extract critical features and valuable information from large amounts of data to help people complete tasks faster, there are growing concerns about the non-transparency of AI in the decision-making process. The emergence of explainable AI (XAI) has allowed humans to better understand and control AI systems, which is motivated to ",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 164
+  },
+  {
+    "id": "r143",
+    "title": "Perspectives on Large Language Models for Relevance Judgment",
+    "authors": [
+      "Guglielmo Faggioli",
+      "Laura Dietz",
+      "Charles L. A. Clarke",
+      "Gianluca Demartini",
+      "Matthias Hagen"
+    ],
+    "year": 2023,
+    "month": 8,
+    "venue": "arXiv",
+    "url": "https://doi.org/10.1145/3578337.3605136",
+    "abstract": "When asked, large language models~(LLMs) like ChatGPT claim that they can assist with relevance judgments but it is not clear whether automated judgments can reliably be used in evaluations of retrieval systems. In this perspectives paper, we discuss possible ways for~LLMs to support relevance judgments along with concerns and issues that arise. We devise a human--machine collaboration spectrum that allows to categorize different relevance judgment strategies, based on how much humans rely on ma",
+    "tags": [
+      "multi-agent",
+      "evaluation",
+      "RL"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 139
+  },
+  {
+    "id": "r162",
+    "title": "Operationalising AI ethics through the agile software development lifecycle: a case study of AI-enabled mobile health applications",
+    "authors": [
+      "Lameck Mbangula Amugongo",
+      "Alexander Kriebitz",
+      "Auxane Boch",
+      "Christoph Lütge"
+    ],
+    "year": 2023,
+    "month": 8,
+    "venue": "AI and Ethics",
+    "url": "https://doi.org/10.1007/s43681-023-00331-3",
+    "abstract": "Abstract Although numerous ethical principles and guidelines have been proposed to guide the development of artificial intelligence (AI) systems, it has proven difficult to translate these principles into actionable practices beyond mere adherence to ethical ideas. This is particularly challenging in the context of AI systems for healthcare, which requires balancing the potential benefits of the solution against the risks to patients and the wider community, including minorities and underserved ",
+    "tags": [
+      "code-agent"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 56
+  },
+  {
+    "id": "r071",
+    "title": "ChatGPT: The cognitive effects on learning and memory",
+    "authors": [
+      "Long Bai",
+      "Xiangfei Liu",
+      "Jiacan Su"
+    ],
+    "year": 2023,
+    "month": 9,
+    "venue": "Brain‐X",
+    "url": "https://doi.org/10.1002/brx2.30",
+    "abstract": "Abstract As the integration of artificial intelligence (AI) into our daily lives and educational environments becomes increasingly prevalent, it is necessary to understand the way in which these technologies impact cognitive functions. AI models such as ChatGPT hold immense promise for advancing the field of education, making it easier than ever for educators to support personalized learning and for students to access information. However, there are risks associated with increased AI engagement;",
+    "tags": [
+      "memory",
+      "RL"
+    ],
+    "methods": [
+      "role-playing"
+    ],
+    "datasets": [],
+    "citations": 111
+  },
+  {
+    "id": "r146",
+    "title": "Data science, artificial intelligence and the third wave of digital era governance",
+    "authors": [
+      "Patrick Dunleavy",
+      "Helen Margetts"
+    ],
+    "year": 2023,
+    "month": 9,
+    "venue": "Public Policy and Administration",
+    "url": "https://doi.org/10.1177/09520767231198737",
+    "abstract": "This article examines the model of digital era governance (DEG) in the light of the latest-wave of data-driven technologies, such as data science methodologies and artificial intelligence (labelled here DSAI). It identifies four key top-level macro-themes through which digital changes in response to these developments may be investigated. First, the capability to store and analyse large quantities of digital data obviates the need for data ‘compression’ that characterises Weberian-model bureaucr",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 92
+  },
+  {
+    "id": "r010",
+    "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+    "authors": [
+      "Joon Sung Park",
+      "Joseph O’Brien",
+      "Carrie J. Cai",
+      "Meredith Ringel Morris",
+      "Percy Liang"
+    ],
+    "year": 2023,
+    "month": 10,
+    "venue": "arXiv",
+    "url": "https://doi.org/10.1145/3586183.3606763",
+    "abstract": "Believable proxies of human behavior can empower interactive applications ranging from immersive environments to rehearsal spaces for interpersonal communication to prototyping tools. In this paper, we introduce generative agents: computational software agents that simulate believable human behavior. Generative agents wake up, cook breakfast, and head to work; artists paint, while authors write; they form opinions, notice each other, and initiate conversations; they remember and reflect on days ",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "role-playing"
+    ],
+    "datasets": [],
+    "citations": 1089
+  },
+  {
+    "id": "r060",
+    "title": "DiverseVul: A New Vulnerable Source Code Dataset for Deep Learning Based Vulnerability Detection",
+    "authors": [
+      "Yizheng Chen",
+      "Zhoujie Ding",
+      "Lamya Alowain",
+      "Xinyun Chen",
+      "David Wagner"
+    ],
+    "year": 2023,
+    "month": 10,
+    "venue": "arXiv",
+    "url": "https://doi.org/10.1145/3607199.3607242",
+    "abstract": "We propose and release a new vulnerable source code dataset. We curate the dataset by crawling security issue websites, extracting vulnerability-fixing commits and source codes from the corresponding projects. Our new dataset contains 18,945 vulnerable functions spanning 150 CWEs and 330,492 non-vulnerable functions extracted from 7,514 commits. Our dataset covers 295 more projects than all previous datasets combined.",
+    "tags": [
+      "code-agent",
+      "web-agent"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 158
+  },
+  {
+    "id": "r065",
+    "title": "The Participatory Turn in AI Design: Theoretical Foundations and the Current State of Practice",
+    "authors": [
+      "Fernando Delgado",
+      "Stephen Yang",
+      "Michael Madaio",
+      "Qian Yang"
+    ],
+    "year": 2023,
+    "month": 10,
+    "venue": "arXiv",
+    "url": "https://doi.org/10.1145/3617694.3623261",
+    "abstract": "Despite the growing consensus that stakeholders affected by AI systems should participate in their design, enormous variation and implicit disagreements exist among current approaches. For researchers and practitioners who are interested in taking a participatory approach to AI design and development, it remains challenging to assess the extent to which any participatory approach grants substantive agency to stakeholders. This article thus aims to ground what we dub the \"participatory turn\" in A",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 136
+  },
+  {
+    "id": "r151",
+    "title": "Artificial Intelligence (AI) Trust Framework and Maturity Model: Applying an Entropy Lens to Improve Security, Privacy, and Ethical AI",
+    "authors": [
+      "Michael Mylrea",
+      "Nikki Robinson"
+    ],
+    "year": 2023,
+    "month": 10,
+    "venue": "Entropy",
+    "url": "https://doi.org/10.3390/e25101429",
+    "abstract": "Recent advancements in artificial intelligence (AI) technology have raised concerns about the ethical, moral, and legal safeguards. There is a pressing need to improve metrics for assessing security and privacy of AI systems and to manage AI technology in a more ethical manner. To address these challenges, an AI Trust Framework and Maturity Model is proposed to enhance trust in the design and management of AI systems. Trust in AI involves an agreed-upon understanding between humans and machines ",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 79
+  },
+  {
+    "id": "r173",
+    "title": "ChatGPT in pharmacy practice: a cross-sectional exploration of Jordanian pharmacists' perception, practice, and concerns",
+    "authors": [
+      "Khawla Abu Hammour",
+      "Hamza Alhamad",
+      "Fahmi Y. Al-Ashwal",
+      "Abdulsalam Halboup",
+      "Rana Abu Farha"
+    ],
+    "year": 2023,
+    "month": 10,
+    "venue": "Journal of Pharmaceutical Policy and Practice",
+    "url": "https://doi.org/10.1186/s40545-023-00624-2",
+    "abstract": "Although ChatGPT has shown promise in health and pharmaceutical practice, its application should be rigorously regulated by evidence-based law. According to the study's findings, pharmacists support the use of ChatGPT in pharmacy practice but have concerns about its use due to ethical reasons, legal problems, privacy concerns, worries about the accuracy of the data generated, data learning, and bias risk.",
+    "tags": [
+      "RL"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 38
+  },
+  {
+    "id": "r063",
+    "title": "CodeHelp: Using Large Language Models with Guardrails for Scalable Support in Programming Classes",
+    "authors": [
+      "Mark Liffiton",
+      "Brad E. Sheese",
+      "Jaromír Šavelka",
+      "Paul Denny"
+    ],
+    "year": 2023,
+    "month": 11,
+    "venue": "arXiv",
+    "url": "https://doi.org/10.1145/3631802.3631830",
+    "abstract": "Computing educators face significant challenges in providing timely support to students, especially in large class settings. Large language models (LLMs) have emerged recently and show great promise for providing on-demand help at a large scale, but there are concerns that students may over-rely on the outputs produced by these models. In this paper, we introduce CodeHelp, a novel LLM-powered tool designed with guardrails to provide on-demand assistance to programming students without directly r",
+    "tags": [
+      "safety",
+      "RL",
+      "code-agent"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 140
+  },
+  {
+    "id": "r076",
+    "title": "ChatGPT is a Remarkable Tool—For Experts",
+    "authors": [
+      "Amos Azaria",
+      "Rina Azoulay",
+      "Shulamit Reches"
+    ],
+    "year": 2023,
+    "month": 11,
+    "venue": "Data Intelligence",
+    "url": "https://doi.org/10.1162/dint_a_00235",
+    "abstract": "ABSTRACT This paper investigates the capabilities of ChatGPT as an automated assistant in diverse domains, including scientific writing, mathematics, education, programming, and healthcare. We explore the potential of ChatGPT to enhance productivity, streamline problem-solving processes, and improve writing style. Furthermore, we highlight the potential risks associated with excessive reliance on ChatGPT in these fields. These limitations encompass factors like incorrect and fictitious responses",
+    "tags": [
+      "tool-use"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 88
+  },
+  {
+    "id": "r139",
+    "title": "Evaluation of the Performance of Generative AI Large Language Models ChatGPT, Google Bard, and Microsoft Bing Chat in Supporting Evidence-Based Dentistry: Comparative Mixed Methods Study",
+    "authors": [
+      "Kostis Giannakopoulos",
+      "Argyro Kavadella",
+      "Anas Aaqel Salim",
+      "Vassilis Stamatopoulos",
+      "Eleftherios G. Kaklamanos"
+    ],
+    "year": 2023,
+    "month": 11,
+    "venue": "Journal of Medical Internet Research",
+    "url": "https://doi.org/10.2196/51580",
+    "abstract": "Background The increasing application of generative artificial intelligence large language models (LLMs) in various fields, including dentistry, raises questions about their accuracy. Objective This study aims to comparatively evaluate the answers provided by 4 LLMs, namely Bard (Google LLC), ChatGPT-3.5 and ChatGPT-4 (OpenAI), and Bing Chat (Microsoft Corp), to clinically relevant questions from the field of dentistry. Methods The LLMs were queried with 20 open-type, clinical dentistry–related ",
+    "tags": [
+      "evaluation",
+      "RL"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 169
+  },
+  {
+    "id": "r157",
+    "title": "Designs and practices using generative AI for sustainable student discourse and knowledge creation",
+    "authors": [
+      "Alwyn Vwen Yen Lee",
+      "Seng Chee Tan",
+      "Chew Lee Teo"
+    ],
+    "year": 2023,
+    "month": 11,
+    "venue": "Smart Learning Environments",
+    "url": "https://doi.org/10.1186/s40561-023-00279-1",
+    "abstract": "Abstract Utilizing generative artificial intelligence, especially the more popularly used Generative Pre-trained Transformer (GPT) architecture, has made it possible to employ AI in ways that were previously not possible with conventional assessment and evaluation technologies for learning. As educational use cases and academic studies become increasingly prevalent, it is critical for education stakeholders to discuss design considerations and ideals that are key in supporting and augmenting lea",
+    "tags": [
+      "evaluation",
+      "RL",
+      "RAG"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 63
+  },
+  {
+    "id": "r159",
+    "title": "Large Language Models versus Natural Language Understanding and Generation",
+    "authors": [
+      "Nikitas Ν. Karanikolas",
+      "Eirini Manga",
+      "Nikoletta E. Samaridi",
+      "Eleni Tousidou",
+      "Michael Vassilakopoulos"
+    ],
+    "year": 2023,
+    "month": 11,
+    "venue": "arXiv",
+    "url": "https://doi.org/10.1145/3635059.3635104",
+    "abstract": "In recent years, the process humans adopt to learn a foreign language has moved from the strict \"Grammar –Translation\" method, which is based mainly on grammar and syntax rules, to more innovative processes, resulting to the more modern \"Communicative approach\". As its name states, this approach focuses on the coherent communication with native speakers and the cultivation of oral skills, without taking into consideration, at least at the first stages, the rules that govern the language.",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 61
+  },
+  {
+    "id": "r029",
+    "title": "Autonomous chemical research with large language models",
+    "authors": [
+      "Daniil A. Boiko",
+      "Robert MacKnight",
+      "Ben Kline",
+      "Gabriel dos Passos Gomes"
+    ],
+    "year": 2023,
+    "month": 12,
+    "venue": "Nature",
+    "url": "https://doi.org/10.1038/s41586-023-06792-0",
+    "abstract": "Abstract Transformer-based large language models are making significant strides in various fields, such as natural language processing 1–5 , biology 6,7 , chemistry 8–10 and computer programming 11,12 . Here, we show the development and capabilities of Coscientist, an artificial intelligence system driven by GPT-4 that autonomously designs, plans and performs complex experiments by incorporating large language models empowered by tools such as internet and documentation search, code execution an",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 653
+  },
+  {
+    "id": "r055",
+    "title": "The Robots Are Here: Navigating the Generative AI Revolution in Computing Education",
+    "authors": [
+      "James Prather",
+      "Paul Denny",
+      "Juho Leinonen",
+      "Brett A. Becker",
+      "Ibrahim Albluwi"
+    ],
+    "year": 2023,
+    "month": 12,
+    "venue": "arXiv",
+    "url": "https://doi.org/10.1145/3623762.3633499",
+    "abstract": "Recent advancements in artificial intelligence (AI) and specifically generative AI (GenAI) are threatening to fundamentally reshape computing and society. Largely driven by large language models (LLMs), many tools are now able to interpret and generate both natural language instructions and source code. These capabilities have sparked urgent questions in the computing education community around how educators should adapt their pedagogy to address the challenges and to leverage the opportunities ",
+    "tags": [
+      "code-agent",
+      "RL"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 271
+  },
+  {
+    "id": "r064",
+    "title": "GPT models in construction industry: Opportunities, limitations, and a use case validation",
+    "authors": [
+      "Abdullahi B. Saka",
+      "Ridwan Taiwo",
+      "Nurudeen Saka",
+      "Babatunde Abiodun Salami",
+      "Saheed Ajayi"
+    ],
+    "year": 2023,
+    "month": 12,
+    "venue": "Developments in the Built Environment",
+    "url": "https://doi.org/10.1016/j.dibe.2023.100300",
+    "abstract": "Large Language Models (LLMs) trained on large data sets came into prominence in 2018 after Google introduced BERT. Subsequently, different LLMs such as GPT models from OpenAI have been released. These models perform well on diverse tasks and have been gaining widespread applications in fields such as business and education. However, little is known about the opportunities and challenges of using LLMs in the construction industry. Thus, this study aims to assess GPT models in the construction ind",
+    "tags": [
+      "RL"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 138
+  },
+  {
+    "id": "r135",
+    "title": "Can Large Language Models Transform Computational Social Science?",
+    "authors": [
+      "Caleb Ziems",
+      "William A. Held",
+      "Omar Ahmed Shaikh",
+      "Jiaao Chen",
+      "Zhehao Zhang"
+    ],
+    "year": 2023,
+    "month": 12,
+    "venue": "Computational Linguistics",
+    "url": "https://doi.org/10.1162/coli_a_00502",
+    "abstract": "Abstract Large language models (LLMs) are capable of successfully performing many language processing tasks zero-shot (without training data). If zero-shot LLMs can also reliably classify and explain social phenomena like persuasiveness and political ideology, then LLMs could augment the computational social science (CSS) pipeline in important ways. This work provides a road map for using LLMs as CSS tools. Towards this end, we contribute a set of prompting best practices and an extensive evalua",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 365
+  },
+  {
+    "id": "r145",
+    "title": "El impacto de la inteligencia artificial generativa en educación superior: una mirada desde la ética y la integridad académica",
+    "authors": [
+      "Cinta Gallent Torres",
+      "Alfredo Zapata González",
+      "José Luis Ortego Hernando"
+    ],
+    "year": 2023,
+    "month": 12,
+    "venue": "RELIEVE - Revista Electrónica de Investigación y Evaluación Educativa",
+    "url": "https://doi.org/10.30827/relieve.v29i2.29134",
+    "abstract": "La Inteligencia Artificial Generativa (IAG) ha revolucionado el ámbito de la educación superior, y ha abierto el debate en torno al potencial de herramientas como ChatGPT, Humata.ai o Sudowrite en los procesos de enseñanza, aprendizaje y evaluación. Si bien su integración en este contexto presenta numerosas oportunidades (i.e., retroalimentación instantánea, generación de recursos y materiales docentes, aprendizaje adaptativo, interactividad, etc.), también plantea importantes desafíos que ponen",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 102
+  },
+  {
+    "id": "r150",
+    "title": "How understanding large language models can inform the use of ChatGPT in physics education",
+    "authors": [
+      "Giulia Polverini",
+      "Bor Gregorcic"
+    ],
+    "year": 2023,
+    "month": 12,
+    "venue": "European Journal of Physics",
+    "url": "https://doi.org/10.1088/1361-6404/ad1420",
+    "abstract": "Abstract The paper aims to fulfil three main functions: (1) to serve as an introduction for the physics education community to the functioning of large language models (LLMs), (2) to present a series of illustrative examples demonstrating how prompt-engineering techniques can impact LLMs performance on conceptual physics tasks and (3) to discuss potential implications of the understanding of LLMs and prompt engineering for physics teaching and learning. We first summarise existing research on th",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 85
+  },
+  {
+    "id": "r052",
+    "title": "ChatGPT for Robotics: Design Principles and Model Abilities",
+    "authors": [
+      "Sai Vemprala",
+      "Rogerio Bonatti",
+      "Arthur Bucker",
+      "Ashish Kapoor"
+    ],
+    "year": 2024,
+    "month": 1,
+    "venue": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2024.3387941",
+    "abstract": "This paper presents an experimental study regarding the use of OpenAI&#x2019;s ChatGPT for robotics applications. We outline a strategy that combines design principles for prompt engineering and the creation of a high-level function library which allows ChatGPT to adapt to different robotics tasks, simulators, and form factors. We focus our evaluations on the effectiveness of different prompt engineering techniques and dialog strategies towards the execution of various types of robotics tasks. W",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 371
+  },
+  {
+    "id": "r058",
+    "title": "Enhancing Work Productivity through Generative Artificial Intelligence: A Comprehensive Literature Review",
+    "authors": [
+      "Humaid Al Naqbi",
+      "Zied Bahroun",
+      "Vian Ahmed"
+    ],
+    "year": 2024,
+    "month": 1,
+    "venue": "Sustainability",
+    "url": "https://doi.org/10.3390/su16031166",
+    "abstract": "In this review, utilizing the PRISMA methodology, a comprehensive analysis of the use of Generative Artificial Intelligence (GAI) across diverse professional sectors is presented, drawing from 159 selected research publications. This study provides an insightful overview of the impact of GAI on enhancing institutional performance and work productivity, with a specific focus on sectors including academia, research, technology, communications, agriculture, government, and business. It highlights t",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 226
+  },
+  {
+    "id": "r059",
+    "title": "Computing Education in the Era of Generative AI",
+    "authors": [
+      "Paul Denny",
+      "James Prather",
+      "Brett A. Becker",
+      "James Finnie-Ansley",
+      "Arto Hellas"
+    ],
+    "year": 2024,
+    "month": 1,
+    "venue": "Communications of the ACM",
+    "url": "https://doi.org/10.1145/3624720",
+    "abstract": "Challenges and opportunities faced by computing educators and students adapting to LLMs capable of generating accurate source code from natural-language problem descriptions.",
+    "tags": [
+      "code-agent",
+      "RL"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 192
+  },
+  {
+    "id": "r096",
+    "title": "DB-GPT: Large Language Model Meets Database",
+    "authors": [
+      "Xuanhe Zhou",
+      "Zhaoyan Sun",
+      "Guoliang Li"
+    ],
+    "year": 2024,
+    "month": 1,
+    "venue": "Data Science and Engineering",
+    "url": "https://doi.org/10.1007/s41019-023-00235-6",
+    "abstract": "Abstract Large language models (LLMs) have shown superior performance in various areas. And LLMs have the potential to revolutionize data management by serving as the \"brain\" of next-generation database systems. However, there are several challenges that utilize LLMs to optimize databases. First, it is challenging to provide appropriate prompts (e.g., instructions and demonstration examples) to enable LLMs to understand the database optimization problems. Second, LLMs only capture the logical da",
+    "tags": [
+      "reasoning"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 54
+  },
+  {
+    "id": "r097",
+    "title": "The potential application of artificial intelligence in veterinary clinical practice and biomedical research",
+    "authors": [
+      "Olalekan Chris Akinsulie",
+      "Ibrahim Idris",
+      "Victor Ayodele Aliyu",
+      "Sammuel Shahzad",
+      "Olamilekan Gabriel Banwo"
+    ],
+    "year": 2024,
+    "month": 1,
+    "venue": "Frontiers in Veterinary Science",
+    "url": "https://doi.org/10.3389/fvets.2024.1347550",
+    "abstract": "Artificial intelligence (AI) is a fast-paced technological advancement in terms of its application to various fields of science and technology. In particular, AI has the potential to play various roles in veterinary clinical practice, enhancing the way veterinary care is delivered, improving outcomes for animals and ultimately humans. Also, in recent years, the emergence of AI has led to a new direction in biomedical research, especially in translational research with great potential, promising ",
+    "tags": [
+      "reasoning"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 54
+  },
+  {
+    "id": "r119",
+    "title": "A meta systematic review of artificial intelligence in higher education: a call for increased ethics, collaboration, and rigour",
+    "authors": [
+      "Melissa Bond",
+      "Hassan Khosravi",
+      "Maarten de Laat",
+      "Nina Bergdahl",
+      "Violeta Negrea"
+    ],
+    "year": 2024,
+    "month": 1,
+    "venue": "International Journal of Educational Technology in Higher Education",
+    "url": "https://doi.org/10.1186/s41239-023-00436-z",
+    "abstract": "Abstract Although the field of Artificial Intelligence in Education (AIEd) has a substantial history as a research domain, never before has the rapid evolution of AI applications in education sparked such prominent public discourse. Given the already rapidly growing AIEd literature base in higher education, now is the time to ensure that the field has a solid research and conceptual grounding. This review of reviews is the first comprehensive meta review to explore the scope and nature of AIEd i",
+    "tags": [
+      "multi-agent"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 392
+  },
+  {
+    "id": "r141",
+    "title": "Student Perceptions of ChatGPT Use in a College Essay Assignment: Implications for Learning, Grading, and Trust in Artificial Intelligence",
+    "authors": [
+      "Chad C. Tossell",
+      "Nathan L. Tenhundfeld",
+      "Ali Momen",
+      "Katrina Cooley",
+      "Ewart J. de Visser"
+    ],
+    "year": 2024,
+    "month": 1,
+    "venue": "IEEE Transactions on Learning Technologies",
+    "url": "https://doi.org/10.1109/tlt.2024.3355015",
+    "abstract": "This study examined student experiences before and after an essay writing assignment that required the use of ChatGPT within an undergraduate engineering course. Utilizing a pre-post study design, we gathered data from 24 participants to evaluate ChatGPT's support for both completing and grading an essay assignment, exploring its educational value and impact on the learning process. Our quantitative and thematic analyses uncovered that ChatGPT did not simplify the writing process. Instead, the t",
+    "tags": [
+      "evaluation",
+      "RL"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 144
+  },
+  {
+    "id": "r148",
+    "title": "Artificial Intelligence and Big Data in Sustainable Entrepreneurship",
+    "authors": [
+      "Steve J. Bickley",
+      "Alison Macintyre",
+      "Benno Torgler"
+    ],
+    "year": 2024,
+    "month": 1,
+    "venue": "Journal of Economic Surveys",
+    "url": "https://doi.org/10.1111/joes.12611",
+    "abstract": "Abstract There is an urgent need to transition our economy, society, and culture towards systems and actions that facilitate ecological sustainability. Such radical change requires equally radical transformation of approaches to decision making and resource use. Sustainable entrepreneurship (SE) is often presented as the answer to meeting the triple‐bottom‐line challenges that businesses face; however, there are very real limits to what it can achieve. SE is in the early stages of adopting tools",
+    "tags": [
+      "reasoning"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 87
+  },
+  {
+    "id": "r149",
+    "title": "Navigating Generative Artificial Intelligence Promises and Perils for Knowledge and Creative Work",
+    "authors": [
+      "Hind Benbya",
+      "Franz Strich",
+      "Toomas Tamm"
+    ],
+    "year": 2024,
+    "month": 1,
+    "venue": "Journal of the Association for Information Systems",
+    "url": "https://doi.org/10.17705/1jais.00861",
+    "abstract": "Generative artificial intelligence (GenAI) is rapidly becoming a viable tool to enhance productivity and act as a catalyst for innovation across various sectors. Its ability to perform tasks that have traditionally required human judgment and creativity is transforming knowledge and creative work. Yet it also raises concerns and implications that could reshape the very landscape of knowledge and creative work. In this editorial, we undertake an in-depth examination of both the opportunities and ",
+    "tags": [
+      "RL",
+      "RAG"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 86
+  },
+  {
+    "id": "r166",
+    "title": "ChatGPT’s Security Risks and Benefits: Offensive and Defensive Use-Cases, Mitigation Measures, and Future Implications",
+    "authors": [
+      "Maha Charfeddine",
+      "Habib M. Kammoun",
+      "Bechir Hamdaoui",
+      "Mohsen Guizani"
+    ],
+    "year": 2024,
+    "month": 1,
+    "venue": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2024.3367792",
+    "abstract": "ChatGPT has been acknowledged as a powerful tool that can radically boost productivity across a wide range of industries. It reveals potential in cybersecurity-related tasks such as social engineering. Nevertheless, this possibility raises important concerns regarding the thin line separating moral use of this technology from its harmful usage. It is imperative to address the challenges of distinguishing between legitimate and malevolent use of ChatGPT. This research paper investigates the many ",
+    "tags": [
+      "safety"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 48
+  },
+  {
+    "id": "r168",
+    "title": "Assistant, Parrot, or Colonizing Loudspeaker? ChatGPT Metaphors for Developing Critical AI Literacies",
+    "authors": [
+      "Anuj Gupta",
+      "Yasser Atef",
+      "Anna Mills",
+      "Maha Bali"
+    ],
+    "year": 2024,
+    "month": 1,
+    "venue": "Open Praxis",
+    "url": "https://doi.org/10.55982/openpraxis.16.1.631",
+    "abstract": "This study explores how discussing metaphors for AI can help build awareness of the frames that shape our understanding of AI systems, particularly large language models (LLMs) like ChatGPT. Given the pressing need to teach “critical AI literacy”, discussion of metaphor provides an opportunity for inquiry and dialogue with space for nuance, playfulness, and critique. Using a collaborative autoethnographic methodology, we analyzed metaphors from a range of sources, and reflected on them individua",
+    "tags": [
+      "multi-agent",
+      "RL"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 43
+  },
+  {
+    "id": "r195",
+    "title": "Lost in the Middle: How Language Models Use Long Contexts",
+    "authors": [
+      "Nelson F. Liu",
+      "Kevin Lin",
+      "John Hewitt",
+      "Ashwin Paranjape",
+      "Michele Bevilacqua"
+    ],
+    "year": 2024,
+    "month": 1,
+    "venue": "Transactions of the Association for Computational Linguistics",
+    "url": "https://doi.org/10.1162/tacl_a_00638",
+    "abstract": "Abstract While recent language models have the ability to take long contexts as input, relatively little is known about how well they use longer context. We analyze the performance of language models on two tasks that require identifying relevant information in their input contexts: multi-document question answering and key-value retrieval. We find that performance can degrade significantly when changing the position of relevant information, indicating that current language models do not robustl",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 648
+  },
+  {
+    "id": "r066",
+    "title": "GeneGPT: augmenting large language models with domain tools for improved access to biomedical information",
+    "authors": [
+      "Qiao Jin",
+      "Yifan Yang",
+      "Qingyu Chen",
+      "Zhiyong Lu"
+    ],
+    "year": 2024,
+    "month": 2,
+    "venue": "Bioinformatics",
+    "url": "https://doi.org/10.1093/bioinformatics/btae075",
+    "abstract": "Abstract Motivation While large language models (LLMs) have been successfully applied to various tasks, they still face challenges with hallucinations. Augmenting LLMs with domain-specific tools such as database utilities can facilitate easier and more precise access to specialized knowledge. In this article, we present GeneGPT, a novel method for teaching LLMs to use the Web APIs of the National Center for Biotechnology Information (NCBI) for answering genomics questions. Specifically, we promp",
+    "tags": [
+      "tool-use"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 133
+  },
+  {
+    "id": "r078",
+    "title": "Structured Prompt Interrogation and Recursive Extraction of Semantics (SPIRES): a method for populating knowledge bases using zero-shot learning",
+    "authors": [
+      "J. Harry Caufield",
+      "Harshad Hegde",
+      "Vincent Emonet",
+      "Nomi L. Harris",
+      "Marcin P. Joachimiak"
+    ],
+    "year": 2024,
+    "month": 2,
+    "venue": "Bioinformatics",
+    "url": "https://doi.org/10.1093/bioinformatics/btae104",
+    "abstract": "Abstract Motivation Creating knowledge bases and ontologies is a time consuming task that relies on manual curation. AI/NLP approaches can assist expert curators in populating these knowledge bases, but current approaches rely on extensive training data, and are not able to populate arbitrarily complex nested knowledge schemas. Results Here we present Structured Prompt Interrogation and Recursive Extraction of Semantics (SPIRES), a Knowledge Extraction approach that relies on the ability of Larg",
+    "tags": [
+      "RAG"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 85
+  },
+  {
+    "id": "r087",
+    "title": "AI hype as a cyber security risk: the moral responsibility of implementing generative AI in business",
+    "authors": [
+      "Declan Humphreys",
+      "Abigail Koay",
+      "Dennis Desmond",
+      "Erica Mealy"
+    ],
+    "year": 2024,
+    "month": 2,
+    "venue": "AI and Ethics",
+    "url": "https://doi.org/10.1007/s43681-024-00443-4",
+    "abstract": "Abstract This paper examines the ethical obligations companies have when implementing generative Artificial Intelligence (AI). We point to the potential cyber security risks companies are exposed to when rushing to adopt generative AI solutions or buying into “AI hype”. While the benefits of implementing generative AI solutions for business have been widely touted, the inherent risks associated have been less well publicised. There are growing concerns that the race to integrate generative AI is",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 72
+  },
+  {
+    "id": "r161",
+    "title": "Artificial Intelligence for Digital Heritage Innovation: Setting up a R&amp;D Agenda for Europe",
+    "authors": [
+      "Sander Münster",
+      "Ferdinand Maiwald",
+      "Isabella di Lenardo",
+      "Juha Henriksson",
+      "Antoine Isaac"
+    ],
+    "year": 2024,
+    "month": 2,
+    "venue": "Heritage",
+    "url": "https://doi.org/10.3390/heritage7020038",
+    "abstract": "Artificial intelligence (AI) is a game changer in many fields, including cultural heritage. It supports the planning and preservation of heritage sites and cities, enables the creation of virtual experiences to enrich cultural tourism and engagement, supports research, and increases access and understanding of heritage objects. Despite some impressive examples, the full potential of AI for economic, social, and cultural change is not yet fully visible. Against this background, this article aims ",
+    "tags": [
+      "planning",
+      "RL"
+    ],
+    "methods": [
+      "planning"
+    ],
+    "datasets": [],
+    "citations": 56
+  },
+  {
+    "id": "r170",
+    "title": "The Role of Materiality in an Era of Generative Artificial Intelligence",
+    "authors": [
+      "Kok‐Sing Tang",
+      "Grant Cooper"
+    ],
+    "year": 2024,
+    "month": 2,
+    "venue": "Science & Education",
+    "url": "https://doi.org/10.1007/s11191-024-00508-0",
+    "abstract": "Abstract The introduction of generative artificial intelligence (GenAI) tools like ChatGPT has raised many challenging questions about the nature of teaching, learning, and assessment in every subject area, including science. Unlike other disciplines, natural science is unique because the ontological and epistemological understanding of nature is fundamentally rooted in our interaction with material objects in the physical world. GenAI, powered by statistical probability arising from a massive c",
+    "tags": [
+      "evaluation",
+      "reasoning"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 39
+  },
+  {
+    "id": "r175",
+    "title": "Reinforcement Learning for Generative AI: State of the Art, Opportunities and Open Research Challenges",
+    "authors": [
+      "Giorgio Franceschelli",
+      "Mirco Musolesi"
+    ],
+    "year": 2024,
+    "month": 2,
+    "venue": "Journal of Artificial Intelligence Research",
+    "url": "https://doi.org/10.1613/jair.1.15278",
+    "abstract": "Generative Artificial Intelligence (AI) is one of the most exciting developments in Computer Science of the last decade. At the same time, Reinforcement Learning (RL) has emerged as a very successful paradigm for a variety of machine learning tasks. In this survey, we discuss the state of the art, opportunities and open research questions in applying RL to generative AI. In particular, we will discuss three types of applications, namely, RL as an alternative way for generation without specified ",
+    "tags": [
+      "RL"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 35
+  },
+  {
+    "id": "r019",
+    "title": "A survey on large language model based autonomous agents",
+    "authors": [
+      "Lei Wang",
+      "Chen Ma",
+      "Xueyang Feng",
+      "Zeyu Zhang",
+      "Hao Yang"
+    ],
+    "year": 2024,
+    "month": 3,
+    "venue": "Frontiers of Computer Science",
+    "url": "https://doi.org/10.1007/s11704-024-40231-1",
+    "abstract": "Abstract Autonomous agents have long been a research focus in academic and industry communities. Previous research often focuses on training agents with limited knowledge within isolated environments, which diverges significantly from human learning processes, and makes the agents hard to achieve human-like decisions. Recently, through the acquisition of vast amounts of Web knowledge, large language models (LLMs) have shown potential in human-level intelligence, leading to a surge in research on",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 802
+  },
+  {
+    "id": "r098",
+    "title": "Comparing the Perspectives of Generative AI, Mental Health Experts, and the General Public on Schizophrenia Recovery: Case Vignette Study",
+    "authors": [
+      "Zohar Elyoseph",
+      "Inbar Levkovich"
+    ],
+    "year": 2024,
+    "month": 3,
+    "venue": "JMIR Mental Health",
+    "url": "https://doi.org/10.2196/53043",
+    "abstract": "Abstract Background The current paradigm in mental health care focuses on clinical recovery and symptom remission. This model’s efficacy is influenced by therapist trust in patient recovery potential and the depth of the therapeutic relationship. Schizophrenia is a chronic illness with severe symptoms where the possibility of recovery is a matter of debate. As artificial intelligence (AI) becomes integrated into the health care field, it is important to examine its ability to assess recovery pot",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 53
+  },
+  {
+    "id": "r118",
+    "title": "Black-winged kite algorithm: a nature-inspired meta-heuristic for solving benchmark functions and engineering problems",
+    "authors": [
+      "Jun Wang",
+      "Wenchuan Wang",
+      "Xiao-xue Hu",
+      "Lin Qiu",
+      "Hong-fei Zang"
+    ],
+    "year": 2024,
+    "month": 3,
+    "venue": "Artificial Intelligence Review",
+    "url": "https://doi.org/10.1007/s10462-024-10723-4",
+    "abstract": "Abstract This paper innovatively proposes the Black Kite Algorithm (BKA), a meta-heuristic optimization algorithm inspired by the migratory and predatory behavior of the black kite. The BKA integrates the Cauchy mutation strategy and the Leader strategy to enhance the global search capability and the convergence speed of the algorithm. This novel combination achieves a good balance between exploring global solutions and utilizing local information. Against the standard test function sets of CEC-",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "benchmark"
+    ],
+    "datasets": [],
+    "citations": 392
+  },
+  {
+    "id": "r144",
+    "title": "Generative Artificial Intelligence in Education: From Deceptive to Disruptive.",
+    "authors": [
+      "Marc Alier",
+      "Francisco José García‐Peñalvo",
+      "Jorge D. Camba"
+    ],
+    "year": 2024,
+    "month": 3,
+    "venue": "International Journal of Interactive Multimedia and Artificial Intelligence",
+    "url": "https://doi.org/10.9781/ijimai.2024.02.011",
+    "abstract": "Generative Artificial Intelligence (GenAI) has emerged as a promising technology that can create original content, such as text, images, and sound. The use of GenAI in educational settings is becoming increasingly popular and offers a range of opportunities and challenges. This special issue explores the management and integration of GenAI in educational settings, including the ethical considerations, best practices, and opportunities. The potential of GenAI in education is vast. By using algori",
+    "tags": [
+      "RL"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 122
+  },
+  {
+    "id": "r163",
+    "title": "Enhancing AI-Assisted Group Decision Making through LLM-Powered Devil's Advocate",
+    "authors": [
+      "C. Chiang",
+      "Zhuoran Lu",
+      "Zhuoyan Li",
+      "Ming Yin"
+    ],
+    "year": 2024,
+    "month": 3,
+    "venue": "arXiv",
+    "url": "https://doi.org/10.1145/3640543.3645199",
+    "abstract": "Group decision making plays a crucial role in our complex and interconnected world. The rise of AI technologies has the potential to provide data-driven insights to facilitate group decision making, although it is found that groups do not always utilize AI assistance appropriately. In this paper, we aim to examine whether and how the introduction of a devil's advocate in the AI-assisted group decision making processes could help groups better utilize AI assistance and change the perceptions of g",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 52
+  },
+  {
+    "id": "r068",
+    "title": "GPTScan: Detecting Logic Vulnerabilities in Smart Contracts by Combining GPT with Program Analysis",
+    "authors": [
+      "Yuqiang Sun",
+      "Daoyuan Wu",
+      "Yue Xue",
+      "Han Liu",
+      "Haijun Wang"
+    ],
+    "year": 2024,
+    "month": 4,
+    "venue": "arXiv",
+    "url": "https://doi.org/10.1145/3597503.3639117",
+    "abstract": "Smart contracts are prone to various vulnerabilities, leading to substantial financial losses over time. Current analysis tools mainly target vulnerabilities with fixed control- or data-flow patterns, such as re-entrancy and integer overflow. However, a recent study on Web3 security bugs revealed that about 80% of these bugs cannot be audited by existing tools due to the lack of domain-specific property description and checking. Given recent advances in Large Language Models (LLMs), it is worth ",
+    "tags": [
+      "code-agent"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 116
+  },
+  {
+    "id": "r069",
+    "title": "PubTator 3.0: an AI-powered literature resource for unlocking biomedical knowledge",
+    "authors": [
+      "Chih-Hsuan Wei",
+      "Alexis Allot",
+      "Po‐Ting Lai",
+      "Robert Leaman",
+      "Shubo Tian"
+    ],
+    "year": 2024,
+    "month": 4,
+    "venue": "Nucleic Acids Research",
+    "url": "https://doi.org/10.1093/nar/gkae235",
+    "abstract": "Abstract PubTator 3.0 (https://www.ncbi.nlm.nih.gov/research/pubtator3/) is a biomedical literature resource using state-of-the-art AI techniques to offer semantic and relation searches for key concepts like proteins, genetic variants, diseases and chemicals. It currently provides over one billion entity and relation annotations across approximately 36 million PubMed abstracts and 6 million full-text articles from the PMC open access subset, updated weekly. PubTator 3.0's online interface and AP",
+    "tags": [
+      "RAG"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 114
+  },
+  {
+    "id": "r086",
+    "title": "Emerging trends in federated learning: from model fusion to federated X learning",
+    "authors": [
+      "Shaoxiong Ji",
+      "Yue Tan",
+      "Teemu Saravirta",
+      "Zhiqin Yang",
+      "Yixin Liu"
+    ],
+    "year": 2024,
+    "month": 4,
+    "venue": "International Journal of Machine Learning and Cybernetics",
+    "url": "https://doi.org/10.1007/s13042-024-02119-1",
+    "abstract": "Abstract Federated learning is a new learning paradigm that decouples data collection and model training via multi-party computation and model aggregation. As a flexible learning setting, federated learning has the potential to integrate with other learning frameworks. We conduct a focused survey of federated learning in conjunction with other learning algorithms. Specifically, we explore various learning algorithms to improve the vanilla federated averaging algorithm and review model fusion met",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 72
+  },
+  {
+    "id": "r147",
+    "title": "Higher Education’s Generative Artificial Intelligence Paradox: The Meaning of Chatbot Mania",
+    "authors": [
+      "Juergen Rudolph",
+      "Fadhil Mohamed Mohamed Ismail",
+      "Ştefan Popenici"
+    ],
+    "year": 2024,
+    "month": 4,
+    "venue": "Journal of University Teaching and Learning Practice",
+    "url": "https://doi.org/10.53761/54fs5e77",
+    "abstract": "Higher education is currently under a significant transformation due to the emergence of generative artificial intelligence (GenAI) technologies, the hype surrounding GenAI and the increasing influence of educational technology business groups over tertiary education. This commentary, prepared for the Special Issue of the Journal of University Teaching &amp; Learning Practice (JUTLP) on “Enhancing student engagement using Artificial Intelligence (AI) and chatbots,” delves into the complex landsc",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 88
+  },
+  {
+    "id": "r155",
+    "title": "Exploring the Role of Generative AI in Enhancing Language Learning: Opportunities and Challenges",
+    "authors": [
+      "Edwin Creely"
+    ],
+    "year": 2024,
+    "month": 4,
+    "venue": "International Journal of Changes in Education",
+    "url": "https://doi.org/10.47852/bonviewijce42022495",
+    "abstract": "Contemporary advances in generative AI technology have sparked considerable interest regarding its application in language education. This article explores the innovative impact that AI-powered linguistic educational tools may have, such as customised learning journeys, dynamic content, and individualised feedback mechanisms, which collectively have the potential to enhance language acquisition and literacy. At the same time, it is important to recognise the constraints associated with such tech",
+    "tags": [
+      "RL"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 67
+  },
+  {
+    "id": "r164",
+    "title": "A Survey on Trustworthy Recommender Systems",
+    "authors": [
+      "Yingqiang Ge",
+      "Shuchang Liu",
+      "Zuohui Fu",
+      "Juntao Tan",
+      "Zelong Li"
+    ],
+    "year": 2024,
+    "month": 4,
+    "venue": "ACM Transactions on Recommender Systems",
+    "url": "https://doi.org/10.1145/3652891",
+    "abstract": "Recommender systems (RS), serving at the forefront of Human-centered AI, are widely deployed in almost every corner of the web and facilitate the human decision-making process. However, despite their enormous capabilities and potential, RS may also lead to undesired effects on users, items, producers, platforms, or even the society at large, such as compromised user trust due to non-transparency, unfair treatment of different consumers, or producers, privacy concerns due to extensive use of user",
+    "tags": [
+      "safety",
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 52
+  },
+  {
+    "id": "r089",
+    "title": "Talk2Care: An LLM-based Voice Assistant for Communication between Healthcare Providers and Older Adults",
+    "authors": [
+      "Ziqi Yang",
+      "Xuhai Xu",
+      "Bingsheng Yao",
+      "Ethan Rogers",
+      "Shao Zhang"
+    ],
+    "year": 2024,
+    "month": 5,
+    "venue": "Proceedings of the ACM on Interactive Mobile Wearable and Ubiquitous Technologies",
+    "url": "https://doi.org/10.1145/3659625",
+    "abstract": "Despite the plethora of telehealth applications to assist home-based older adults and healthcare providers, basic messaging and phone calls are still the most common communication methods, which suffer from limited availability, information loss, and process inefficiencies. One promising solution to facilitate patient-provider communication is to leverage large language models (LLMs) with their powerful natural conversation and summarization capability. However, there is a limited understanding ",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 70
+  },
+  {
+    "id": "r167",
+    "title": "Shaping Human-AI Collaboration: Varied Scaffolding Levels in Co-writing with Language Models",
+    "authors": [
+      "Paramveer S. Dhillon",
+      "Somayeh Molaei",
+      "Jiaqi Li",
+      "Maximilian Golub",
+      "Shaochun Zheng"
+    ],
+    "year": 2024,
+    "month": 5,
+    "venue": "arXiv",
+    "url": "https://doi.org/10.1145/3613904.3642134",
+    "abstract": "Advances in language modeling have paved the way for novel human-AI co-writing experiences. This paper explores how varying levels of scaffolding from large language models (LLMs) shape the co-writing process. Employing a within-subjects field experiment with a Latin square design, we asked participants (N=131) to respond to argumentative writing prompts under three randomly sequenced conditions: no AI assistance (control), next-sentence suggestions (low scaffolding), and next-paragraph suggesti",
+    "tags": [
+      "multi-agent",
+      "tool-use"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 47
+  },
+  {
+    "id": "r056",
+    "title": "ChatGPT is bullshit",
+    "authors": [
+      "Michael Townsen Hicks",
+      "James Humphries",
+      "Joe Slater"
+    ],
+    "year": 2024,
+    "month": 6,
+    "venue": "Ethics and Information Technology",
+    "url": "https://doi.org/10.1007/s10676-024-09775-5",
+    "abstract": "Abstract Recently, there has been considerable interest in large language models: machine learning systems which produce human-like text and dialogue. Applications of these systems have been plagued by persistent inaccuracies in their output; these are often called “AI hallucinations”. We argue that these falsehoods, and the overall activity of large language models, is better understood as bullshit in the sense explored by Frankfurt (On Bullshit, Princeton, 2005): the models are in an important",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 265
+  },
+  {
+    "id": "r172",
+    "title": "A Survey on the Use of Large Language Models (LLMs) in Fake News",
+    "authors": [
+      "Eleftheria Papageorgiou",
+      "Christos Chronis",
+      "Iraklis Varlamis",
+      "Yassine Himeur"
+    ],
+    "year": 2024,
+    "month": 8,
+    "venue": "Future Internet",
+    "url": "https://doi.org/10.3390/fi16080298",
+    "abstract": "The proliferation of fake news and fake profiles on social media platforms poses significant threats to information integrity and societal trust. Traditional detection methods, including rule-based approaches, metadata analysis, and human fact-checking, have been employed to combat disinformation, but these methods often fall short in the face of increasingly sophisticated fake content. This review article explores the emerging role of Large Language Models (LLMs) in enhancing the detection of f",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 39
+  },
+  {
+    "id": "r095",
+    "title": "Deep learning-based software engineering: progress, challenges, and opportunities",
+    "authors": [
+      "Xiangping Chen",
+      "Xing Hu",
+      "Huang Yuan",
+      "He Jiang",
+      "Weixing Ji"
+    ],
+    "year": 2024,
+    "month": 12,
+    "venue": "Science China Information Sciences",
+    "url": "https://doi.org/10.1007/s11432-023-4127-5",
+    "abstract": "Abstract Researchers have recently achieved significant advances in deep learning techniques, which in turn has substantially advanced other research disciplines, such as natural language processing, image processing, speech recognition, and software engineering. Various deep learning techniques have been successfully employed to facilitate software engineering tasks, including code generation, software refactoring, and fault localization. Many studies have also been presented in top conferences",
+    "tags": [
+      "code-agent",
+      "RL"
+    ],
+    "methods": [
+      "code generation"
+    ],
+    "datasets": [],
+    "citations": 55
+  },
+  {
+    "id": "r152",
+    "title": "🧜Siren’s Song in the AI Ocean: A Survey on Hallucination in Large Language Models",
+    "authors": [
+      "Yue Zhang",
+      "Yafu Li",
+      "Leyang Cui",
+      "Cai Deng",
+      "Lemao Liu"
+    ],
+    "year": 2025,
+    "month": 1,
+    "venue": "Computational Linguistics",
+    "url": "https://doi.org/10.1162/coli.a.16",
+    "abstract": "Abstract While large language models (LLMs) have demonstrated remarkable capabilities across a range of downstream tasks, a significant concern revolves around their propensity to exhibit hallucinations: LLMs occasionally generate content that diverges from the user input, contradicts previously generated context, or misaligns with established world knowledge. This phenomenon poses a substantial challenge to the reliability of LLMs in real-world scenarios. In this article, we survey recent effor",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 75
+  },
+  {
+    "id": "r174",
+    "title": "LLM-based NLG Evaluation: Current Status and Challenges",
+    "authors": [
+      "Mingqi Gao",
+      "Xinyu Hu",
+      "Xunjian Yin",
+      "Jie Ruan",
+      "Xiao Pu"
+    ],
+    "year": 2025,
+    "month": 1,
+    "venue": "Computational Linguistics",
+    "url": "https://doi.org/10.1162/coli_a_00561",
+    "abstract": "Abstract Evaluating natural language generation (NLG) is a vital but challenging problem in natural language processing. Traditional evaluation metrics mainly capturing content (e.g., n-gram) overlap between system outputs and references are far from satisfactory, and large language models (LLMs) such as ChatGPT have demonstrated great potential in NLG evaluation in recent years. Various automatic evaluation methods based on LLMs have been proposed, including metrics derived from LLMs, prompting",
+    "tags": [
+      "evaluation"
+    ],
+    "methods": [
+      "prompting"
+    ],
+    "datasets": [],
+    "citations": 38
+  }
+]
